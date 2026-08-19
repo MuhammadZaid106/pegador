@@ -29,24 +29,24 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/shipping" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/shipping" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Shipping and delivery times
                 </Link>
               </li>
               <li>
-                <Link href="/return" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/return" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Return
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/contact" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   contact
                 </Link>
               </li>
               <li>
                 <Link
                   href="/cancel-contract"
-                  className="text-[12px] text-white hover:underline underline-offset-4"
+                  className="text-[12px] text-white hover:underline underline-offset-4 decoration-3"
                 >
                   Cancel contract
                 </Link>
@@ -60,22 +60,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/loyalty" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/loyalty" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Loyalty
                 </Link>
               </li>
               <li>
-                <Link href="/app" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/app" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   PEGADOR® App
                 </Link>
               </li>
               <li>
-                <Link href="/career" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/career" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   career
                 </Link>
               </li>
               <li>
-                <Link href="/reviews" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/reviews" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Reviews
                 </Link>
               </li>
@@ -88,32 +88,32 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/imprint" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/imprint" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   imprint
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/privacy" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/cancellation" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/cancellation" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Cancellation policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/terms" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Terms and Conditions
                 </Link>
               </li>
               <li>
-                <Link href="/accessibility" className="text-[12px] text-white hover:underline  underline-offset-4">
+                <Link href="/accessibility" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Accessibility statement
                 </Link>
               </li>
               <li>
-                <Link href="/cookies" className="text-[12px] text-white hover:underline underline-offset-4">
+                <Link href="/cookies" className="text-[12px] text-white hover:underline underline-offset-4 decoration-3">
                   Cookie settings
                 </Link>
               </li>
