@@ -29,24 +29,24 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/shipping" className="text-[12px] text-white">
+                <Link href="/shipping" className="text-[12px] text-white hover:underline">
                   Shipping and delivery times
                 </Link>
               </li>
               <li>
-                <Link href="/return" className="text-[12px] text-white">
+                <Link href="/return" className="text-[12px] text-white hover:underline">
                   Return
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-[12px] text-white">
+                <Link href="/contact" className="text-[12px] text-white hover:underline">
                   contact
                 </Link>
               </li>
               <li>
                 <Link
                   href="/cancel-contract"
-                  className="text-[12px] text-white"
+                  className="text-[12px] text-white hover:underline"
                 >
                   Cancel contract
                 </Link>
@@ -60,22 +60,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/loyalty" className="text-[12px] text-white">
+                <Link href="/loyalty" className="text-[12px] text-white hover:underline">
                   Loyalty
                 </Link>
               </li>
               <li>
-                <Link href="/app" className="text-[12px] text-white">
+                <Link href="/app" className="text-[12px] text-white hover:underline">
                   PEGADOR® App
                 </Link>
               </li>
               <li>
-                <Link href="/career" className="text-[12px] text-white">
+                <Link href="/career" className="text-[12px] text-white hover:underline">
                   career
                 </Link>
               </li>
               <li>
-                <Link href="/reviews" className="text-[12px] text-white">
+                <Link href="/reviews" className="text-[12px] text-white hover:underline">
                   Reviews
                 </Link>
               </li>
@@ -88,32 +88,32 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/imprint" className="text-[12px] text-white">
+                <Link href="/imprint" className="text-[12px] text-white hover:underline">
                   imprint
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-[12px] text-white">
+                <Link href="/privacy" className="text-[12px] text-white hover:underline">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/cancellation" className="text-[12px] text-white">
+                <Link href="/cancellation" className="text-[12px] text-white hover:underline">
                   Cancellation policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-[12px] text-white">
+                <Link href="/terms" className="text-[12px] text-white hover:underline">
                   Terms and Conditions
                 </Link>
               </li>
               <li>
-                <Link href="/accessibility" className="text-[12px] text-white">
+                <Link href="/accessibility" className="text-[12px] text-white hover:underline">
                   Accessibility statement
                 </Link>
               </li>
               <li>
-                <Link href="/cookies" className="text-[12px] text-white">
+                <Link href="/cookies" className="text-[12px] text-white hover:underline">
                   Cookie settings
                 </Link>
               </li>
