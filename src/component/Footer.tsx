@@ -29,24 +29,24 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/shipping" className="text-[12px] text-white hover:underline">
+                <Link href="/shipping" className="text-[12px] text-white hover:underline underline-offset-4">
                   Shipping and delivery times
                 </Link>
               </li>
               <li>
-                <Link href="/return" className="text-[12px] text-white hover:underline">
+                <Link href="/return" className="text-[12px] text-white hover:underline underline-offset-4">
                   Return
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-[12px] text-white hover:underline">
+                <Link href="/contact" className="text-[12px] text-white hover:underline underline-offset-4">
                   contact
                 </Link>
               </li>
               <li>
                 <Link
                   href="/cancel-contract"
-                  className="text-[12px] text-white hover:underline"
+                  className="text-[12px] text-white hover:underline underline-offset-4"
                 >
                   Cancel contract
                 </Link>
@@ -60,22 +60,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/loyalty" className="text-[12px] text-white hover:underline">
+                <Link href="/loyalty" className="text-[12px] text-white hover:underline underline-offset-4">
                   Loyalty
                 </Link>
               </li>
               <li>
-                <Link href="/app" className="text-[12px] text-white hover:underline">
+                <Link href="/app" className="text-[12px] text-white hover:underline underline-offset-4">
                   PEGADOR® App
                 </Link>
               </li>
               <li>
-                <Link href="/career" className="text-[12px] text-white hover:underline">
+                <Link href="/career" className="text-[12px] text-white hover:underline underline-offset-4">
                   career
                 </Link>
               </li>
               <li>
-                <Link href="/reviews" className="text-[12px] text-white hover:underline">
+                <Link href="/reviews" className="text-[12px] text-white hover:underline underline-offset-4">
                   Reviews
                 </Link>
               </li>
@@ -88,32 +88,32 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3.5">
               <li>
-                <Link href="/imprint" className="text-[12px] text-white hover:underline">
+                <Link href="/imprint" className="text-[12px] text-white hover:underline underline-offset-4">
                   imprint
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-[12px] text-white hover:underline">
+                <Link href="/privacy" className="text-[12px] text-white hover:underline underline-offset-4">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/cancellation" className="text-[12px] text-white hover:underline">
+                <Link href="/cancellation" className="text-[12px] text-white hover:underline underline-offset-4">
                   Cancellation policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-[12px] text-white hover:underline">
+                <Link href="/terms" className="text-[12px] text-white hover:underline underline-offset-4">
                   Terms and Conditions
                 </Link>
               </li>
               <li>
-                <Link href="/accessibility" className="text-[12px] text-white hover:underline">
+                <Link href="/accessibility" className="text-[12px] text-white hover:underline  underline-offset-4">
                   Accessibility statement
                 </Link>
               </li>
               <li>
-                <Link href="/cookies" className="text-[12px] text-white hover:underline">
+                <Link href="/cookies" className="text-[12px] text-white hover:underline underline-offset-4">
                   Cookie settings
                 </Link>
               </li>
