@@ -4,6 +4,16 @@ import DiscountModal from "./DiscountModal";
 
 const StickyOffer = () => {
   const [modalOpen, setModalOpen] = useState(false);
+  const [filterOpen, setFilterOpen] = useState(false);
+
+  // Sync with body class toggled by the filter drawer
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setFilterOpen(document.body.classList.contains("filter-open"));
+    });
+    observer.observe(document.body, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     const hasSeenModal = localStorage.getItem("pegador_discount_seen");
@@ -18,7 +28,11 @@ const StickyOffer = () => {
 
   return (
     <>
-      <div className="fixed bottom-0 left-0 z-999 flex items-center">
+      <div
+        className={`fixed bottom-0 left-0 z-40 flex items-center transition-all duration-300 ${
+          filterOpen ? "opacity-0 pointer-events-none translate-y-4" : "opacity-100 translate-y-0"
+        }`}
+      >
         <button
           onClick={() => setModalOpen(true)}
           className="flex items-center bg-white text-black px-8 py-4 rounded font-bold tracking-[0.12em] uppercase border border-black/10 hover:bg-black hover:text-white transition-all duration-300 ml-6 text-[1rem] cursor-pointer"
@@ -33,3 +47,4 @@ const StickyOffer = () => {
 };
 
 export default StickyOffer;
+

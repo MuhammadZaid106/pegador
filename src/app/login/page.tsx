@@ -20,7 +20,9 @@ export default function LoginPage() {
           />
         </Link>
       </div>
-
+      <div>
+        
+      </div>
       {/* Card */}
       <div className="flex flex-1 flex-col items-center justify-start px-4 pt-10">
         <div className="w-full max-w-[420px]">

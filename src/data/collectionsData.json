@@ -1,0 +1,98 @@
+[
+  {
+    "id": "col-men-tshirts",
+    "name": "Men Tees",
+    "slug": "men-tshirts",
+    "href": "/collections/men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "description": "Signature oversized graphic tees, heavyweight cotton basics, and streetwear essentials for men.",
+    "heroImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 12,
+    "featured": true
+  },
+  {
+    "id": "col-men-hoodies",
+    "name": "Men Hoodies",
+    "slug": "men-hoodies",
+    "href": "/collections/men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "description": "Heavyweight french terry fleece hoodies, zip jackets, and boxy sweaters crafted for ultimate comfort.",
+    "heroImage": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 12,
+    "featured": true
+  },
+  {
+    "id": "col-men-pants-joggers",
+    "name": "Men Pants & Joggers",
+    "slug": "men-pants-joggers",
+    "href": "/collections/men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "description": "Cargo joggers, wide-leg sweatpants, and tailored relaxed trousers with signature detailing.",
+    "heroImage": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 10,
+    "featured": true
+  },
+  {
+    "id": "col-men-jackets",
+    "name": "Men Jackets",
+    "slug": "men-jackets",
+    "href": "/collections/men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "description": "Statement puffer coats, bomber jackets, track jackets, and lightweight transitional outerwear.",
+    "heroImage": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 10,
+    "featured": true
+  },
+  {
+    "id": "col-women-tshirts",
+    "name": "Women Tees & Tops",
+    "slug": "women-tshirts",
+    "href": "/collections/women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "description": "Cropped tees, relaxed graphic tops, and everyday essentials designed with modern feminine cuts.",
+    "heroImage": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 12,
+    "featured": true
+  },
+  {
+    "id": "col-women-hoodies",
+    "name": "Women Hoodies",
+    "slug": "women-hoodies",
+    "href": "/collections/women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "description": "Oversized fleece hoodies, lounge sweatshirts, and cropped zip hoodies in premium neutral tones.",
+    "heroImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 10,
+    "featured": true
+  },
+  {
+    "id": "col-here-and-now",
+    "name": "Here and Now | FW 26",
+    "slug": "here-and-now",
+    "href": "/collections/here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "description": "The FW 26 campaign capsule featuring bold graphics, tactical silhouettes, and limited edition pieces.",
+    "heroImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 12,
+    "featured": true
+  },
+  {
+    "id": "col-essentials",
+    "name": "PEGADOR Essentials",
+    "slug": "essentials",
+    "href": "/collections/essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "description": "Timeless luxury streetwear core pieces in minimalist color palettes built for everyday wear.",
+    "heroImage": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1200&q=80",
+    "itemCount": 12,
+    "featured": true
+  }
+]

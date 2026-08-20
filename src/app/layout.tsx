@@ -17,13 +17,17 @@ export const metadata: Metadata = {
   description: "PEGADOR® is a brand that specializes in high-quality products and services. Explore our offerings and learn more about our commitment to excellence.",
 };
 
+import ReduxProvider from "@/component/redux/ReduxProvider";
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <ReduxProvider>{children}</ReduxProvider>
+      </body>
     </html>
   );
 }

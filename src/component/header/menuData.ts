@@ -86,7 +86,7 @@ export const megaMenuByNav: Record<string, MegaMenuData> = {
           { label: "Perfumes", href: "/collections/men-perfumes" },
           { label: "Bags", href: "/collections/men-bags" },
           { label: "Beanies", href: "/collections/men-beanies" },
-          { label: "Gift cards", href: "/products/gift-card" },
+          { label: "Gift cards", href: "/info/gift-card" },
         ],
       },
     ],
@@ -203,7 +203,7 @@ export const megaMenuByNav: Record<string, MegaMenuData> = {
       {
         title: "FIRE",
         links: [
-          { label: "About us", href: "/pages/about-us" },
+          { label: "About us", href: "/info/about-us" },
           { label: "Lookbook FW '26 | Here and Now", href: "/collections/here-and-now" },
         ],
       },

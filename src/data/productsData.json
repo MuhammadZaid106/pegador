@@ -1,0 +1,3872 @@
+[
+  {
+    "id": "prod-m-tee-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "men-tshirts-m-tee-01",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 44.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "men-tshirts-m-tee-02",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 49.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "men-tshirts-m-tee-03",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 54.95,
+    "originalPrice": 69.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "men-tshirts-m-tee-04",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 39.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "men-tshirts-m-tee-05",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 44.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "men-tshirts-m-tee-06",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 49.95,
+    "originalPrice": 64.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "men-tshirts-m-tee-07",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 54.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "men-tshirts-m-tee-08",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 39.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "men-tshirts-m-tee-09",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 44.95,
+    "originalPrice": 59.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "men-tshirts-m-tee-10",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 49.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-11",
+    "name": "Heavyweight Oversized Logo Tee - Midnight Navy",
+    "slug": "men-tshirts-m-tee-11",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 54.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.7,
+    "reviewCount": 67,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-tee-12",
+    "name": "Boxy Fit Distressed Graphic Tee - Vintage Black",
+    "slug": "men-tshirts-m-tee-12",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 39.95,
+    "originalPrice": 54.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.8,
+    "reviewCount": 72,
+    "details": {
+      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "men-hoodies-m-hoodie-01",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 74.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "men-hoodies-m-hoodie-02",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 79.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "men-hoodies-m-hoodie-03",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 84.95,
+    "originalPrice": 99.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "men-hoodies-m-hoodie-04",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 69.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "men-hoodies-m-hoodie-05",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 74.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "men-hoodies-m-hoodie-06",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 79.95,
+    "originalPrice": 94.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "men-hoodies-m-hoodie-07",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 84.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "men-hoodies-m-hoodie-08",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 69.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "men-hoodies-m-hoodie-09",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 74.95,
+    "originalPrice": 89.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "men-hoodies-m-hoodie-10",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 79.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-11",
+    "name": "Heavyweight Oversized Logo Tee - Midnight Navy",
+    "slug": "men-hoodies-m-hoodie-11",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 84.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.7,
+    "reviewCount": 67,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-hoodie-12",
+    "name": "Boxy Fit Distressed Graphic Tee - Vintage Black",
+    "slug": "men-hoodies-m-hoodie-12",
+    "collectionSlug": "men-hoodies",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 69.95,
+    "originalPrice": 84.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.8,
+    "reviewCount": 72,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Hoodies & Sweaters series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "men-pants-joggers-m-pant-01",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 64.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "men-pants-joggers-m-pant-02",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 69.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "men-pants-joggers-m-pant-03",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 74.95,
+    "originalPrice": 89.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "men-pants-joggers-m-pant-04",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 59.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "men-pants-joggers-m-pant-05",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 64.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "men-pants-joggers-m-pant-06",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 69.95,
+    "originalPrice": 84.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "men-pants-joggers-m-pant-07",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 74.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "men-pants-joggers-m-pant-08",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 59.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "men-pants-joggers-m-pant-09",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 64.95,
+    "originalPrice": 79.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-pant-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "men-pants-joggers-m-pant-10",
+    "collectionSlug": "men-pants-joggers",
+    "category": "MEN",
+    "subCategory": "BOTTOMS",
+    "price": 69.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Pants & Joggers series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "men-jackets-m-jacket-01",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 104.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "men-jackets-m-jacket-02",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 109.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "men-jackets-m-jacket-03",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 114.95,
+    "originalPrice": 129.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "men-jackets-m-jacket-04",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 99.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "men-jackets-m-jacket-05",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 104.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "men-jackets-m-jacket-06",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 109.95,
+    "originalPrice": 124.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "men-jackets-m-jacket-07",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 114.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "men-jackets-m-jacket-08",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 99.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "men-jackets-m-jacket-09",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 104.95,
+    "originalPrice": 119.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-m-jacket-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "men-jackets-m-jacket-10",
+    "collectionSlug": "men-jackets",
+    "category": "MEN",
+    "subCategory": "OUTERWEAR",
+    "price": 109.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the Men's Jackets & Outerwear series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "women-tshirts-w-tee-01",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 40.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "women-tshirts-w-tee-02",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 45.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "women-tshirts-w-tee-03",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 50.95,
+    "originalPrice": 65.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "women-tshirts-w-tee-04",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 35.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "women-tshirts-w-tee-05",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 40.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "women-tshirts-w-tee-06",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 45.95,
+    "originalPrice": 60.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "women-tshirts-w-tee-07",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 50.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "women-tshirts-w-tee-08",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 35.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "women-tshirts-w-tee-09",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 40.95,
+    "originalPrice": 55.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "women-tshirts-w-tee-10",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 45.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-11",
+    "name": "Heavyweight Oversized Logo Tee - Midnight Navy",
+    "slug": "women-tshirts-w-tee-11",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 50.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.7,
+    "reviewCount": 67,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-tee-12",
+    "name": "Boxy Fit Distressed Graphic Tee - Vintage Black",
+    "slug": "women-tshirts-w-tee-12",
+    "collectionSlug": "women-tshirts",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 35.95,
+    "originalPrice": 50.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.8,
+    "reviewCount": 72,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Tees & Tops series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "women-hoodies-w-hoodie-01",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 70.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "women-hoodies-w-hoodie-02",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 75.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "women-hoodies-w-hoodie-03",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 80.95,
+    "originalPrice": 95.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "women-hoodies-w-hoodie-04",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 65.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "women-hoodies-w-hoodie-05",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 70.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "women-hoodies-w-hoodie-06",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 75.95,
+    "originalPrice": 90.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "women-hoodies-w-hoodie-07",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 80.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "women-hoodies-w-hoodie-08",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 65.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "women-hoodies-w-hoodie-09",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 70.95,
+    "originalPrice": 85.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-w-hoodie-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "women-hoodies-w-hoodie-10",
+    "collectionSlug": "women-hoodies",
+    "category": "WOMEN",
+    "subCategory": "TOPS",
+    "price": 75.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the Women's Hoodies & Sweats series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "here-and-now-fire-01",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 54.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "here-and-now-fire-02",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 59.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "here-and-now-fire-03",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 64.95,
+    "originalPrice": 79.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "here-and-now-fire-04",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 49.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "here-and-now-fire-05",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 54.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "here-and-now-fire-06",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 59.95,
+    "originalPrice": 74.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "here-and-now-fire-07",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 64.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "here-and-now-fire-08",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 49.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "here-and-now-fire-09",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 54.95,
+    "originalPrice": 69.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "here-and-now-fire-10",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 59.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-11",
+    "name": "Heavyweight Oversized Logo Tee - Midnight Navy",
+    "slug": "here-and-now-fire-11",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 64.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.7,
+    "reviewCount": 67,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-fire-12",
+    "name": "Boxy Fit Distressed Graphic Tee - Vintage Black",
+    "slug": "here-and-now-fire-12",
+    "collectionSlug": "here-and-now",
+    "category": "FIRE",
+    "subCategory": "FEATURED",
+    "price": 49.95,
+    "originalPrice": 64.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.8,
+    "reviewCount": 72,
+    "details": {
+      "description": "Premium streetwear staple from the Here and Now | FW '26 series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-01",
+    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+    "slug": "essentials-ess-01",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 50.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.4,
+    "reviewCount": 17,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-02",
+    "name": "Boxy Fit Distressed Graphic Tee - Off White",
+    "slug": "essentials-ess-02",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 55.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.5,
+    "reviewCount": 22,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-03",
+    "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+    "slug": "essentials-ess-03",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 60.95,
+    "originalPrice": 75.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.6,
+    "reviewCount": 27,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-04",
+    "name": "Vintage Wash Cut-Out Graphic Tee - Sage Green",
+    "slug": "essentials-ess-04",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 45.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-05",
+    "name": "Heavy Fleece Pullover Hoodie - Midnight Navy",
+    "slug": "essentials-ess-05",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 50.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-06",
+    "name": "Relaxed Fit Zip Track Hoodie - Vintage Black",
+    "slug": "essentials-ess-06",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 55.95,
+    "originalPrice": 70.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.9,
+    "reviewCount": 42,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-07",
+    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
+    "slug": "essentials-ess-07",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 60.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Washed Grey",
+    "rating": 4.3,
+    "reviewCount": 47,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-08",
+    "name": "Wide Leg Heavy Terry Sweatpant - Off White",
+    "slug": "essentials-ess-08",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 45.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 36,
+    "inStock": true,
+    "color": "Off White",
+    "rating": 4.4,
+    "reviewCount": 52,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-09",
+    "name": "Padded Oversized Bomber Jacket - Espresso Brown",
+    "slug": "essentials-ess-09",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 50.95,
+    "originalPrice": 65.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 43,
+    "inStock": true,
+    "color": "Espresso Brown",
+    "rating": 4.5,
+    "reviewCount": 57,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-10",
+    "name": "Quilted Lightweight Puffer Jacket - Sage Green",
+    "slug": "essentials-ess-10",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 55.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 15,
+    "inStock": true,
+    "color": "Sage Green",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-11",
+    "name": "Heavyweight Oversized Logo Tee - Midnight Navy",
+    "slug": "essentials-ess-11",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 60.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 22,
+    "inStock": true,
+    "color": "Midnight Navy",
+    "rating": 4.7,
+    "reviewCount": 67,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-ess-12",
+    "name": "Boxy Fit Distressed Graphic Tee - Vintage Black",
+    "slug": "essentials-ess-12",
+    "collectionSlug": "essentials",
+    "category": "ESSENTIALS",
+    "subCategory": "CORE",
+    "price": 45.95,
+    "originalPrice": 60.95,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 29,
+    "inStock": true,
+    "color": "Vintage Black",
+    "rating": 4.8,
+    "reviewCount": 72,
+    "details": {
+      "description": "Premium streetwear staple from the PEGADOR® Essentials series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
+      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
+      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
+      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
+      "features": [
+        "Heavyweight premium cotton construction",
+        "High-density silk-screened print",
+        "Ribbed collar / elastic cuffs",
+        "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  }
+]
