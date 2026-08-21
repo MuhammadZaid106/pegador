@@ -1,10 +1,10 @@
 "use client";
-import { useEffect } from "react";
 import { X, ShoppingBag, Trash2, Plus, Minus } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { useAppDispatch, useAppSelector } from "@/lib/redux/hooks";
 import { removeItem, updateQuantity } from "@/lib/redux/cartSlice";
+import { useScrollLock } from "@/hooks/useScrollLock";
 
 interface CartDrawerProps {
   isOpen: boolean;
@@ -15,23 +15,15 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
   const dispatch = useAppDispatch();
   const cartItems = useAppSelector((state) => state.cart.items);
 
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [isOpen]);
+  useScrollLock(isOpen);
 
   const subtotal = cartItems.reduce(
     (sum, item) => sum + item.product.price * item.quantity,
-    0
+    0,
   );
 
-  const currencySymbol = cartItems.length > 0 ? cartItems[0].product.currencySymbol : "€";
+  const currencySymbol =
+    cartItems.length > 0 ? cartItems[0].product.currencySymbol : "€";
 
   return (
     <>
@@ -39,7 +31,9 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
       <div
         onClick={onClose}
         className={`fixed inset-0 z-[60] bg-black/40 transition-opacity duration-300 ${
-          isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          isOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
         }`}
         aria-hidden="true"
       />
@@ -109,10 +103,13 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                           {item.product.name}
                         </h3>
                         <span className="text-[12px] font-semibold text-black flex-shrink-0">
-                          {item.product.currencySymbol}{(item.product.price * item.quantity).toFixed(2)}
+                          {item.product.currencySymbol}
+                          {(item.product.price * item.quantity).toFixed(2)}
                         </span>
                       </div>
-                      <p className="text-[11px] text-neutral-400 mt-1">Size: {item.size}</p>
+                      <p className="text-[11px] text-neutral-400 mt-1">
+                        Size: {item.size}
+                      </p>
                     </div>
 
                     {/* Qty & Remove */}
@@ -124,7 +121,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                               updateQuantity({
                                 id: item.id,
                                 quantity: Math.max(1, item.quantity - 1),
-                              })
+                              }),
                             )
                           }
                           className="px-2.5 py-1 text-neutral-500 hover:text-black transition-colors"
@@ -140,7 +137,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                               updateQuantity({
                                 id: item.id,
                                 quantity: item.quantity + 1,
-                              })
+                              }),
                             )
                           }
                           className="px-2.5 py-1 text-neutral-500 hover:text-black transition-colors"

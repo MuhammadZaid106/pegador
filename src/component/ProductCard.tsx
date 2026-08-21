@@ -19,10 +19,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
   const [showQuickSize, setShowQuickSize] = useState(false);
 
   const primaryImage = product.image;
-  const hoverImage = product.moreImages && product.moreImages[0] ? product.moreImages[0] : primaryImage;
+  const hoverImage =
+    product.moreImages && product.moreImages[0]
+      ? product.moreImages[0]
+      : primaryImage;
 
   return (
-    <div 
+    <div
       className="group flex flex-col relative"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => {
@@ -39,7 +42,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
           </span>
         )}
 
-        <Link href={`/collections/${product.collectionSlug}/products/${product.slug}`} className="block w-full h-full">
+        <Link
+          href={`/collections/${product.collectionSlug}/products/${product.slug}`}
+          className="block w-full h-full"
+        >
           <Image
             src={isHovered ? hoverImage : primaryImage}
             alt={product.name}
@@ -65,7 +71,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
           {/* Quick Size Popover */}
           {showQuickSize && (
             <div className="absolute bottom-10 right-0 bg-white shadow-xl border border-neutral-100 p-2 rounded flex flex-col gap-1 z-30 min-w-[100px] animate-fade-in">
-              <span className="text-[9px] font-bold text-neutral-400 uppercase tracking-wider px-2 py-0.5">Select Size</span>
+              <span className="text-[9px] font-bold text-neutral-400 uppercase tracking-wider px-2 py-0.5">
+                Select Size
+              </span>
               <div className="grid grid-cols-3 gap-1">
                 {product.sizes.map((sz) => (
                   <button
@@ -95,7 +103,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
 
       {/* Product Details */}
       <div className="mt-3 flex flex-col gap-0.5">
-        <Link href={`/collections/${product.collectionSlug}/products/${product.slug}`}>
+        <Link
+          href={`/collections/${product.collectionSlug}/products/${product.slug}`}
+        >
           <h3 className="text-[12px] sm:text-[13px] font-normal text-[#1a1a1a] line-clamp-1 group-hover:underline underline-offset-4 decoration-1">
             {product.name}
           </h3>
@@ -103,11 +113,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
 
         <div className="flex items-center gap-2 text-[11px] sm:text-[12px]">
           <span className="text-[#1a1a1a] font-normal">
-            {product.currencySymbol}{product.price.toFixed(2)}
+            {product.currencySymbol}
+            {product.price.toFixed(2)}
           </span>
           {product.originalPrice && (
             <span className="text-neutral-400 line-through">
-              {product.currencySymbol}{product.originalPrice.toFixed(2)}
+              {product.currencySymbol}
+              {product.originalPrice.toFixed(2)}
             </span>
           )}
         </div>
@@ -117,4 +129,3 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
 };
 
 export default ProductCard;
-

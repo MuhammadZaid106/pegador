@@ -2,15 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { megaMenuByNav, type MenuLink } from "./menuData";
+import { isExternalLink } from "@/utils/link";
 
 type MegaMenuProps = {
   activeMenu: string | null;
   onLinkClick?: () => void;
 };
 
-const isExternalLink = (href: string) => href.startsWith("http");
-
-const MenuAnchor = ({ link, onLinkClick }: { link: MenuLink; onLinkClick?: () => void }) => {
+const MenuAnchor = ({
+  link,
+  onLinkClick,
+}: {
+  link: MenuLink;
+  onLinkClick?: () => void;
+}) => {
   const external = isExternalLink(link.href);
 
   return (
@@ -64,7 +69,10 @@ const MegaMenu = ({ activeMenu, onLinkClick }: MegaMenuProps) => {
                 <motion.div
                   key={column.title}
                   className="min-w-0 space-y-4"
-                  variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}
+                  variants={{
+                    hidden: { opacity: 0, y: 10 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
                   transition={{ duration: 0.25, ease: "easeOut" }}
                 >
                   <h3 className="text-[12px] font-medium tracking-[0.14em] text-[#2c3340]">
@@ -72,7 +80,11 @@ const MegaMenu = ({ activeMenu, onLinkClick }: MegaMenuProps) => {
                   </h3>
                   <div className="space-y-3">
                     {column.links.map((link) => (
-                      <MenuAnchor key={`${column.title}-${link.label}`} link={link} onLinkClick={onLinkClick} />
+                      <MenuAnchor
+                        key={`${column.title}-${link.label}`}
+                        link={link}
+                        onLinkClick={onLinkClick}
+                      />
                     ))}
                   </div>
                 </motion.div>
@@ -88,11 +100,19 @@ const MegaMenu = ({ activeMenu, onLinkClick }: MegaMenuProps) => {
                       ? "lg:col-span-4"
                       : "lg:col-span-5"
                 }`}
-                variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { opacity: 1, y: 0 },
+                }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
                 {menu.imageCards.map((card) => (
-                  <Link key={card.src} href={card.href} onClick={onLinkClick} className="group block">
+                  <Link
+                    key={card.src}
+                    href={card.href}
+                    onClick={onLinkClick}
+                    className="group block"
+                  >
                     <div
                       className={`relative overflow-hidden bg-neutral-100 ${
                         isFireMenu && menu.imageCards?.length === 1
@@ -108,7 +128,9 @@ const MegaMenu = ({ activeMenu, onLinkClick }: MegaMenuProps) => {
                         className="object-cover transition duration-500 group-hover:scale-[1.03]"
                       />
                     </div>
-                    <p className="pt-3 text-center text-base text-[#111] sm:text-lg">{card.caption}</p>
+                    <p className="pt-3 text-center text-base text-[#111] sm:text-lg">
+                      {card.caption}
+                    </p>
                   </Link>
                 ))}
               </motion.div>

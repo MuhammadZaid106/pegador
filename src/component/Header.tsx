@@ -1,26 +1,29 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { User, Search, ShoppingBag, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { LayoutGroup, motion } from "motion/react";
 import MegaMenu from "./header/MegaMenu";
-import { navLinks, megaMenuByNav } from "./header/menuData";
+import { navLinks, megaMenuByNav } from "@/constants/navigation";
 import CartDrawer from "./CartDrawer";
 import SearchOverlay from "./SearchOverlay";
 import { useAppSelector } from "@/lib/redux/hooks";
+import { useScrolled } from "@/hooks/useScrolled";
+import { useCartDrawer } from "@/hooks/useCartDrawer";
+import { useScrollLock } from "@/hooks/useScrollLock";
 
 const Header = () => {
   const pathname = usePathname();
   const isHomePage = pathname === "/";
 
-  const [isScrolled, setIsScrolled] = useState(false);
+  const isScrolled = useScrolled(12);
+  const { isCartOpen, setIsCartOpen } = useCartDrawer();
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [expandedMobileTab, setExpandedMobileTab] = useState<string | null>(
     null,
   );
-  const [isCartOpen, setIsCartOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const cartItems = useAppSelector((state) => state.cart.items);
@@ -29,34 +32,8 @@ const Header = () => {
   const useLightTheme =
     !isHomePage || isScrolled || activeMenu !== null || isMobileMenuOpen;
 
-  useEffect(() => {
-    const onScroll = () => {
-      setIsScrolled(window.scrollY > 12);
-    };
-
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  // Event listener for opening cart drawer from other page components
-  useEffect(() => {
-    const handleOpenCart = () => setIsCartOpen(true);
-    window.addEventListener("open-cart", handleOpenCart);
-    return () => window.removeEventListener("open-cart", handleOpenCart);
-  }, []);
-
-  // Prevent scroll when mobile menu is open
-  useEffect(() => {
-    if (isMobileMenuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [isMobileMenuOpen]);
+  // Lock scroll when mobile menu is open
+  useScrollLock(isMobileMenuOpen);
 
   const toggleMobileTab = (label: string) => {
     setExpandedMobileTab(expandedMobileTab === label ? null : label);
@@ -267,14 +244,14 @@ const Header = () => {
               <Link
                 href="/login"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-[12px] text-white font-semibold tracking-[0.15em] uppercase hover:bg-neutral-500 bg-black px-6 py-3  "
+                className="text-[12px] text-white font-semibold tracking-[0.15em] uppercase hover:bg-neutral-500 bg-black px-6 py-3"
               >
                 My Account
               </Link>
               <div className="text-[10px] text-neutral-400 tracking-wider">
                 © 2026 PEGADOR®
               </div>
-            </div> 
+            </div>
           </div>
         )}
       </header>
