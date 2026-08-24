@@ -49,9 +49,16 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
       >
         {/* Header row */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-neutral-100">
-          <span className="text-[13px] font-bold tracking-[0.18em] uppercase">
-            Your Bag ({cartItems.length})
-          </span>
+          <div>
+            <span className="text-[13px] font-bold tracking-[0.18em] uppercase">
+              Your Bag
+            </span>
+            <div className="flex items-center gap-2 mt-0.5">
+              <span className="text-[10px] text-black font-normal tracking-[0.12em]">
+                {cartItems.length} {cartItems.length === 1 ? "style" : "styles"}
+              </span>
+            </div>
+          </div>
           <button
             onClick={onClose}
             aria-label="Close cart"
@@ -161,19 +168,37 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
 
             {/* Footer */}
             <div className="p-6 border-t border-neutral-100 bg-neutral-50 space-y-4">
-              <div className="flex items-center justify-between text-[13px] font-bold uppercase tracking-wider">
-                <span>Subtotal</span>
-                <span>
-                  {currencySymbol}
-                  {subtotal.toFixed(2)}
-                </span>
+              <div className="flex flex-col items-center justify-between text-[13px] font-bold uppercase tracking-wider">
+                <div>
+                  <span className="tracking-[0.12em]">
+                    Total.
+                    {cartItems.reduce((s, i) => s + i.quantity, 0) === 1
+                      ? "item"
+                      : "items"}
+                    <span className="ml-33">
+                      {cartItems.reduce((s, i) => s + i.quantity, 0)}
+                    </span>
+                  </span>
+                </div>
+                <div className="h-px w-[90%] bg-gray-200 mb-1" />
+                <div>
+                  <span className="mr-30">Subtotal</span>
+                  <span>
+                    {currencySymbol}
+                    {subtotal.toFixed(2)}
+                  </span>
+                </div>
               </div>
               <p className="text-[10px] text-neutral-400 leading-relaxed">
                 Shipping, taxes, and discounts will be calculated at checkout.
               </p>
-              <button className="w-full bg-black text-white text-[11px] font-bold tracking-[0.2em] uppercase py-4 hover:bg-neutral-800 transition-all">
+              <Link
+                href="/checkout"
+                onClick={onClose}
+                className="block w-full bg-black text-white text-[11px] font-bold tracking-[0.2em] uppercase py-4 text-center hover:bg-neutral-800 transition-all"
+              >
                 Proceed to Checkout
-              </button>
+              </Link>
             </div>
           </>
         )}

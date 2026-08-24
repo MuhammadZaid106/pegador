@@ -7,3 +7,5 @@ export * from "@/utils/format";
 
 export const collectionsData: Collection[] = collectionsDataRaw as Collection[];
 export const productsData: Product[] = productsDataRaw as Product[];
+
+
