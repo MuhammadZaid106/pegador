@@ -168,21 +168,21 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
 
             {/* Footer */}
             <div className="p-6 border-t border-neutral-100 bg-neutral-50 space-y-4">
-              <div className="flex flex-col items-center justify-between text-[13px] font-bold uppercase tracking-wider">
-                <div>
+              <div className="flex flex-col text-[13px] font-bold uppercase tracking-wider space-y-2">
+                <div className="flex items-center justify-between">
                   <span className="tracking-[0.12em]">
-                    Total.
+                    Total.{" "}
                     {cartItems.reduce((s, i) => s + i.quantity, 0) === 1
                       ? "item"
                       : "items"}
-                    <span className="ml-33">
-                      {cartItems.reduce((s, i) => s + i.quantity, 0)}
-                    </span>
+                  </span>
+                  <span>
+                    {cartItems.reduce((s, i) => s + i.quantity, 0)}
                   </span>
                 </div>
-                <div className="h-px w-[90%] bg-gray-200 mb-1" />
-                <div>
-                  <span className="mr-30">Subtotal</span>
+                <div className="h-px w-full bg-gray-200" />
+                <div className="flex items-center justify-between">
+                  <span>Subtotal</span>
                   <span>
                     {currencySymbol}
                     {subtotal.toFixed(2)}
