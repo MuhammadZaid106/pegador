@@ -162,9 +162,9 @@ const Header = () => {
                 strokeWidth={1.6}
                 className="cursor-pointer"
               />
-              {cartCount > 0 && (
+              {cartItems.length > 0 && (
                 <span className="absolute -top-1.5 -right-1.5 bg-[#5147e5] text-white text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center animate-fade-in">
-                  {cartCount}
+                  {cartItems.length}
                 </span>
               )}
             </button>
