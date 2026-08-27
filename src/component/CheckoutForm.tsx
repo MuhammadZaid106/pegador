@@ -1,6 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { useFormik } from "formik";
+import * as Yup from "yup";
+import OrderConfirmation from "@/component/OrderConfirmation";
 import {
   ArrowLeft,
   Lock,
@@ -30,6 +33,52 @@ const inputClass =
 const labelClass =
   "block text-[10px] font-bold tracking-[0.18em] uppercase text-neutral-400 mb-1.5";
 
+const validationSchema = Yup.object().shape({
+  email: Yup.string()
+    .email("Please enter a valid email address")
+    .required("Email address is required"),
+  phone: Yup.string()
+    .matches(/^\+?[0-9\s\-()]{7,15}$/, "Please enter a valid phone number")
+    .required("Phone number is required"),
+  firstName: Yup.string()
+    .min(2, "First name must be at least 2 characters")
+    .required("First name is required"),
+  lastName: Yup.string()
+    .min(2, "Last name must be at least 2 characters")
+    .required("Last name is required"),
+  address: Yup.string().required("Street address is required"),
+  apt: Yup.string().optional(),
+  city: Yup.string().required("City is required"),
+  postalCode: Yup.string()
+    .matches(/^[0-9a-zA-Z\s-]{3,10}$/, "Please enter a valid postal code")
+    .required("Postal code is required"),
+  country: Yup.string().required("Please select a country"),
+  cardName: Yup.string()
+    .min(3, "Name must be at least 3 characters")
+    .required("Name on card is required"),
+  cardNumber: Yup.string()
+    .matches(/^\d{4} \d{4} \d{4} \d{4}$/, "Card number must be 16 digits")
+    .required("Card number is required"),
+  expiry: Yup.string()
+    .required("Expiry date is required")
+    .matches(/^(0[1-9]|1[0-2])\/([0-9]{2})$/, "Expiry must be MM/YY")
+    .test("not-expired", "Card is expired", (value) => {
+      if (!value || !/^\d{2}\/\d{2}$/.test(value)) return true;
+      const [monthStr, yearStr] = value.split("/");
+      const month = parseInt(monthStr, 10);
+      const year = 2000 + parseInt(yearStr, 10);
+      const now = new Date();
+      const currentYear = now.getFullYear();
+      const currentMonth = now.getMonth() + 1;
+      if (year < currentYear) return false;
+      if (year === currentYear && month < currentMonth) return false;
+      return true;
+    }),
+  cvv: Yup.string()
+    .matches(/^\d{3,4}$/, "CVV must be 3 or 4 digits")
+    .required("CVV is required"),
+});
+
 export default function CheckoutForm({
   subtotal,
   shipping,
@@ -41,25 +90,53 @@ export default function CheckoutForm({
   onConfirm,
 }: CheckoutFormProps) {
   const [step, setStep] = useState<Step>("contact");
+  const [showConfirmModal, setShowConfirmModal] = useState(false);
 
-  /* ── Contact ── */
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+  const formik = useFormik({
+    initialValues: {
+      email: "",
+      phone: "",
+      firstName: "",
+      lastName: "",
+      address: "",
+      apt: "",
+      city: "",
+      postalCode: "",
+      country: "",
+      cardName: "",
+      cardNumber: "",
+      expiry: "",
+      cvv: "",
+    },
+    validationSchema,
+    onSubmit: () => {
+      setShowConfirmModal(true);
+    },
+  });
 
-  /* ── Shipping ── */
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [address, setAddress] = useState("");
-  const [apt, setApt] = useState("");
-  const [city, setCity] = useState("");
-  const [postalCode, setPostalCode] = useState("");
-  const [country, setCountry] = useState("");
+  const validateStep = async (fields: string[]) => {
+    fields.forEach((field) => formik.setFieldTouched(field, true, false));
+    const errors = await formik.validateForm();
+    const stepHasErrors = fields.some(
+      (field) => !!errors[field as keyof typeof errors],
+    );
+    return !stepHasErrors;
+  };
 
-  /* ── Payment ── */
-  const [cardName, setCardName] = useState("");
-  const [cardNumber, setCardNumber] = useState("");
-  const [expiry, setExpiry] = useState("");
-  const [cvv, setCvv] = useState("");
+  const getInputClass = (fieldName: keyof typeof formik.values) => {
+    const hasError = formik.touched[fieldName] && formik.errors[fieldName];
+    return `${inputClass} ${hasError ? "border-red-500 focus:border-red-500" : ""}`;
+  };
+
+  const renderError = (fieldName: keyof typeof formik.values) => {
+    const hasError = formik.touched[fieldName] && formik.errors[fieldName];
+    if (!hasError) return null;
+    return (
+      <p className="mt-1 text-[11px] font-semibold tracking-wide text-red-500">
+        {formik.errors[fieldName]}
+      </p>
+    );
+  };
 
   const formatCard = (val: string) =>
     val
@@ -70,7 +147,9 @@ export default function CheckoutForm({
 
   const formatExpiry = (val: string) => {
     const digits = val.replace(/\D/g, "").slice(0, 4);
-    return digits.length > 2 ? `${digits.slice(0, 2)}/${digits.slice(2)}` : digits;
+    return digits.length > 2
+      ? `${digits.slice(0, 2)}/${digits.slice(2)}`
+      : digits;
   };
 
   const steps: { id: Step; label: string }[] = [
@@ -106,8 +185,8 @@ export default function CheckoutForm({
                         i < stepIndex
                           ? "bg-black text-white"
                           : i === stepIndex
-                          ? "bg-black text-white"
-                          : "bg-neutral-100 text-neutral-400"
+                            ? "bg-black text-white"
+                            : "bg-neutral-100 text-neutral-400"
                       }`}
                     >
                       {i < stepIndex ? "✓" : i + 1}
@@ -140,29 +219,38 @@ export default function CheckoutForm({
                       <label className={labelClass}>Email Address</label>
                       <input
                         type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        name="email"
+                        value={formik.values.email}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
                         placeholder="you@example.com"
-                        className={inputClass}
+                        className={getInputClass("email")}
                       />
+                      {renderError("email")}
                     </div>
                     <div>
                       <label className={labelClass}>Phone Number</label>
                       <input
                         type="tel"
-                        value={phone}
-                        onChange={(e) => setPhone(e.target.value)}
+                        name="phone"
+                        value={formik.values.phone}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
                         placeholder="+49 000 000 0000"
-                        className={inputClass}
+                        className={getInputClass("phone")}
                       />
+                      {renderError("phone")}
                     </div>
                   </div>
                 </div>
 
                 <button
-                  onClick={() => setStep("shipping")}
-                  disabled={!email.trim() || !phone.trim()}
-                  className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed"
+                  type="button"
+                  onClick={async () => {
+                    const isValid = await validateStep(["email", "phone"]);
+                    if (isValid) setStep("shipping");
+                  }}
+                  className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200"
                 >
                   Continue to Shipping
                 </button>
@@ -183,71 +271,93 @@ export default function CheckoutForm({
                         <label className={labelClass}>First Name</label>
                         <input
                           type="text"
-                          value={firstName}
-                          onChange={(e) => setFirstName(e.target.value)}
+                          name="firstName"
+                          value={formik.values.firstName}
+                          onChange={formik.handleChange}
+                          onBlur={formik.handleBlur}
                           placeholder="Max"
-                          className={inputClass}
+                          className={getInputClass("firstName")}
                         />
+                        {renderError("firstName")}
                       </div>
                       <div>
                         <label className={labelClass}>Last Name</label>
                         <input
                           type="text"
-                          value={lastName}
-                          onChange={(e) => setLastName(e.target.value)}
+                          name="lastName"
+                          value={formik.values.lastName}
+                          onChange={formik.handleChange}
+                          onBlur={formik.handleBlur}
                           placeholder="Mustermann"
-                          className={inputClass}
+                          className={getInputClass("lastName")}
                         />
+                        {renderError("lastName")}
                       </div>
                     </div>
                     <div>
                       <label className={labelClass}>Street Address</label>
                       <input
                         type="text"
-                        value={address}
-                        onChange={(e) => setAddress(e.target.value)}
+                        name="address"
+                        value={formik.values.address}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
                         placeholder="Musterstraße 12"
-                        className={inputClass}
+                        className={getInputClass("address")}
                       />
+                      {renderError("address")}
                     </div>
                     <div>
-                      <label className={labelClass}>Apartment / Suite (optional)</label>
+                      <label className={labelClass}>
+                        Apartment / Suite (optional)
+                      </label>
                       <input
                         type="text"
-                        value={apt}
-                        onChange={(e) => setApt(e.target.value)}
+                        name="apt"
+                        value={formik.values.apt}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
                         placeholder="Apt 4B"
-                        className={inputClass}
+                        className={getInputClass("apt")}
                       />
+                      {renderError("apt")}
                     </div>
                     <div className="grid grid-cols-2 gap-3">
                       <div>
                         <label className={labelClass}>City</label>
                         <input
                           type="text"
-                          value={city}
-                          onChange={(e) => setCity(e.target.value)}
+                          name="city"
+                          value={formik.values.city}
+                          onChange={formik.handleChange}
+                          onBlur={formik.handleBlur}
                           placeholder="Berlin"
-                          className={inputClass}
+                          className={getInputClass("city")}
                         />
+                        {renderError("city")}
                       </div>
                       <div>
                         <label className={labelClass}>Postal Code</label>
                         <input
                           type="text"
-                          value={postalCode}
-                          onChange={(e) => setPostalCode(e.target.value)}
+                          name="postalCode"
+                          value={formik.values.postalCode}
+                          onChange={formik.handleChange}
+                          onBlur={formik.handleBlur}
                           placeholder="10115"
-                          className={inputClass}
+                          className={getInputClass("postalCode")}
                         />
+                        {renderError("postalCode")}
                       </div>
                     </div>
                     <div>
                       <label className={labelClass}>Country</label>
                       <select
-                        value={country}
-                        onChange={(e) => setCountry(e.target.value)}
-                        className={`${inputClass} cursor-pointer`}
+                        name="country"
+                        value={formik.values.country}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                        className={`${getInputClass("country")} cursor-pointer`}
                       >
                         <option value="">Select country…</option>
                         <option>Germany</option>
@@ -261,6 +371,7 @@ export default function CheckoutForm({
                         <option>United States</option>
                         <option>Pakistan</option>
                       </select>
+                      {renderError("country")}
                     </div>
                   </div>
                 </div>
@@ -272,8 +383,19 @@ export default function CheckoutForm({
                   </p>
                   <div className="space-y-2">
                     {[
-                      { label: "Standard Delivery", sub: "3–5 business days", price: shipping === 0 ? "Free" : `${currency}${shipping.toFixed(2)}` },
-                      { label: "Express Delivery", sub: "1–2 business days", price: `${currency}${(shipping + 9.95).toFixed(2)}` },
+                      {
+                        label: "Standard Delivery",
+                        sub: "3–5 business days",
+                        price:
+                          shipping === 0
+                            ? "Free"
+                            : `${currency}${shipping.toFixed(2)}`,
+                      },
+                      {
+                        label: "Express Delivery",
+                        sub: "1–2 business days",
+                        price: `${currency}${(shipping + 9.95).toFixed(2)}`,
+                      },
                     ].map((opt) => (
                       <label
                         key={opt.label}
@@ -290,19 +412,33 @@ export default function CheckoutForm({
                             <p className="text-[12px] font-semibold text-black tracking-wide">
                               {opt.label}
                             </p>
-                            <p className="text-[11px] text-neutral-400">{opt.sub}</p>
+                            <p className="text-[11px] text-neutral-400">
+                              {opt.sub}
+                            </p>
                           </div>
                         </div>
-                        <span className="text-[12px] font-bold text-black">{opt.price}</span>
+                        <span className="text-[12px] font-bold text-black">
+                          {opt.price}
+                        </span>
                       </label>
                     ))}
                   </div>
                 </div>
 
                 <button
-                  onClick={() => setStep("payment")}
-                  disabled={!firstName.trim() || !lastName.trim() || !address.trim() || !city.trim() || !postalCode.trim() || !country}
-                  className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed"
+                  type="button"
+                  onClick={async () => {
+                    const isValid = await validateStep([
+                      "firstName",
+                      "lastName",
+                      "address",
+                      "city",
+                      "postalCode",
+                      "country",
+                    ]);
+                    if (isValid) setStep("payment");
+                  }}
+                  className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200"
                 >
                   Continue to Payment
                 </button>
@@ -331,18 +467,24 @@ export default function CheckoutForm({
                       </div>
                     </div>
                     <p className="text-[18px] font-mono tracking-[0.22em] text-white mb-3">
-                      {cardNumber || "•••• •••• •••• ••••"}
+                      {formik.values.cardNumber || "•••• •••• •••• ••••"}
                     </p>
                     <div className="flex justify-between items-end">
                       <div>
-                        <p className="text-[8px] uppercase tracking-[0.14em] text-white/40 mb-0.5">Card Holder</p>
+                        <p className="text-[8px] uppercase tracking-[0.14em] text-white/40 mb-0.5">
+                          Card Holder
+                        </p>
                         <p className="text-[12px] font-semibold uppercase tracking-wider text-white">
-                          {cardName || "YOUR NAME"}
+                          {formik.values.cardName || "YOUR NAME"}
                         </p>
                       </div>
                       <div className="text-right">
-                        <p className="text-[8px] uppercase tracking-[0.14em] text-white/40 mb-0.5">Expires</p>
-                        <p className="text-[12px] font-semibold tracking-wider text-white">{expiry || "MM/YY"}</p>
+                        <p className="text-[8px] uppercase tracking-[0.14em] text-white/40 mb-0.5">
+                          Expires
+                        </p>
+                        <p className="text-[12px] font-semibold tracking-wider text-white">
+                          {formik.values.expiry || "MM/YY"}
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -352,21 +494,36 @@ export default function CheckoutForm({
                       <label className={labelClass}>Name on Card</label>
                       <input
                         type="text"
-                        value={cardName}
-                        onChange={(e) => setCardName(e.target.value.toUpperCase())}
+                        name="cardName"
+                        value={formik.values.cardName}
+                        onChange={(e) =>
+                          formik.setFieldValue(
+                            "cardName",
+                            e.target.value.toUpperCase(),
+                          )
+                        }
+                        onBlur={formik.handleBlur}
                         placeholder="MAX MUSTERMANN"
-                        className={inputClass}
+                        className={getInputClass("cardName")}
                       />
+                      {renderError("cardName")}
                     </div>
                     <div>
                       <label className={labelClass}>Card Number</label>
                       <div className="relative">
                         <input
                           type="text"
-                          value={cardNumber}
-                          onChange={(e) => setCardNumber(formatCard(e.target.value))}
+                          name="cardNumber"
+                          value={formik.values.cardNumber}
+                          onChange={(e) =>
+                            formik.setFieldValue(
+                              "cardNumber",
+                              formatCard(e.target.value),
+                            )
+                          }
+                          onBlur={formik.handleBlur}
                           placeholder="0000 0000 0000 0000"
-                          className={`${inputClass} pr-10`}
+                          className={`${getInputClass("cardNumber")} pr-10`}
                         />
                         <CreditCard
                           size={16}
@@ -374,27 +531,44 @@ export default function CheckoutForm({
                           className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-300"
                         />
                       </div>
+                      {renderError("cardNumber")}
                     </div>
                     <div className="grid grid-cols-2 gap-3">
                       <div>
                         <label className={labelClass}>Expiry Date</label>
                         <input
                           type="text"
-                          value={expiry}
-                          onChange={(e) => setExpiry(formatExpiry(e.target.value))}
+                          name="expiry"
+                          value={formik.values.expiry}
+                          onChange={(e) =>
+                            formik.setFieldValue(
+                              "expiry",
+                              formatExpiry(e.target.value),
+                            )
+                          }
+                          onBlur={formik.handleBlur}
                           placeholder="MM/YY"
-                          className={inputClass}
+                          className={getInputClass("expiry")}
                         />
+                        {renderError("expiry")}
                       </div>
                       <div>
                         <label className={labelClass}>CVV</label>
                         <input
                           type="text"
-                          value={cvv}
-                          onChange={(e) => setCvv(e.target.value.replace(/\D/g, "").slice(0, 4))}
+                          name="cvv"
+                          value={formik.values.cvv}
+                          onChange={(e) =>
+                            formik.setFieldValue(
+                              "cvv",
+                              e.target.value.replace(/\D/g, "").slice(0, 4),
+                            )
+                          }
+                          onBlur={formik.handleBlur}
                           placeholder="•••"
-                          className={inputClass}
+                          className={getInputClass("cvv")}
                         />
+                        {renderError("cvv")}
                       </div>
                     </div>
                   </div>
@@ -409,12 +583,14 @@ export default function CheckoutForm({
                 </div>
 
                 <button
-                  onClick={onConfirm}
-                  disabled={!cardName.trim() || cardNumber.replace(/\s/g, "").length < 16 || expiry.length < 5 || cvv.length < 3}
+                  type="button"
+                  onClick={() => formik.handleSubmit()}
+                  disabled={formik.isSubmitting}
                   className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
                   <Lock size={12} strokeWidth={2.5} />
-                  Place Order — {currency}{total.toFixed(2)}
+                  Place Order — {currency}
+                  {total.toFixed(2)}
                 </button>
               </div>
             )}
@@ -436,7 +612,8 @@ export default function CheckoutForm({
                     </span>
                   </span>
                   <span className="font-medium">
-                    {currency}{subtotal.toFixed(2)}
+                    {currency}
+                    {subtotal.toFixed(2)}
                   </span>
                 </div>
 
@@ -444,7 +621,8 @@ export default function CheckoutForm({
                   <div className="flex justify-between text-[12px] text-green-600">
                     <span>Discount (10%)</span>
                     <span className="font-medium">
-                      −{currency}{discount.toFixed(2)}
+                      −{currency}
+                      {discount.toFixed(2)}
                     </span>
                   </div>
                 )}
@@ -467,9 +645,12 @@ export default function CheckoutForm({
                 </span>
                 <div className="text-right">
                   <span className="text-[20px] font-bold tracking-tight text-black">
-                    {currency}{total.toFixed(2)}
+                    {currency}
+                    {total.toFixed(2)}
                   </span>
-                  <p className="text-[10px] text-neutral-400 mt-0.5">Incl. VAT</p>
+                  <p className="text-[10px] text-neutral-400 mt-0.5">
+                    Incl. VAT
+                  </p>
                 </div>
               </div>
 
@@ -488,6 +669,18 @@ export default function CheckoutForm({
           </div>
         </div>
       </div>
+      {/* Order Confirmation Modal */}
+      <OrderConfirmation
+        isOpen={showConfirmModal}
+        total={total.toFixed(2)}
+        currency={currency}
+        itemCount={itemCount}
+        onConfirm={() => {
+          setShowConfirmModal(false);
+          onConfirm();
+        }}
+        onCancel={() => setShowConfirmModal(false)}
+      />
     </section>
   );
 }
