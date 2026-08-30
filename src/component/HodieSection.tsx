@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HodieSection = () => {
   return (
-    <section className="w-full bg-white pb-12 md:pb-16">
+    <section className="w-full bg-white dark:bg-neutral-950 pb-12 md:pb-16 transition-colors duration-300">
       <div className="grid grid-cols-2 gap-x-0 gap-y-4 md:gap-y-6 w-full">
         <Link
           href="/collections/tees"
@@ -22,7 +22,7 @@ const HodieSection = () => {
             <span className="block text-white text-[9px] font-bold tracking-[0.2em] uppercase mb-2 drop-shadow-sm">
               PEOPLE FOR PEOPLES
             </span>
-            <span className="inline-block bg-white text-black px-6 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-sm">
+            <span className="inline-block bg-white dark:bg-neutral-900 text-black dark:text-white px-6 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black dark:border dark:border-neutral-800 shadow-sm">
               Tees
             </span>
           </div>
@@ -58,7 +58,7 @@ const HodieSection = () => {
             <span className="block text-white text-[9px] font-bold tracking-[0.2em] uppercase mb-2 drop-shadow-sm">
               LASTING AMBITION
             </span>
-            <span className="inline-block bg-white text-black px-6 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-sm">
+            <span className="inline-block bg-white dark:bg-neutral-900 text-black dark:text-white px-6 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black dark:border dark:border-neutral-800 shadow-sm">
               Hoodies
             </span>
           </div>

@@ -32,11 +32,11 @@ const DiscountModal = ({ onClose }: DiscountModalProps) => {
         if (e.target === e.currentTarget) onClose();
       }}
     >
-      <div className="relative flex w-full max-w-3xl overflow-hidden bg-white shadow-2xl max-h-[95vh]">
+      <div className="relative flex w-full max-w-3xl overflow-hidden bg-white dark:bg-neutral-950 text-black dark:text-white shadow-2xl max-h-[95vh] transition-colors duration-300">
         <button
           onClick={onClose}
           aria-label="Close modal"
-          className="absolute top-4 cursor-pointer right-4 z-10 text-black hover:opacity-60 transition-opacity"
+          className="absolute top-4 cursor-pointer right-4 z-10 text-black dark:text-white hover:opacity-60 transition-opacity"
         >
           <X size={20} strokeWidth={1.8} />
         </button>
@@ -68,18 +68,18 @@ const DiscountModal = ({ onClose }: DiscountModalProps) => {
               alt="Here and Now"
               width={200}
               height={60}
-              className="brightness-0 w-36 h-auto mb-3"
+              className="brightness-0 dark:invert w-36 h-auto mb-3"
             />
           </div>
           <div className="flex items-center justify-center">
-            <h2 className="text-2xl font-black tracking-tight text-black leading-tight mb-3">
+            <h2 className="text-2xl font-black tracking-tight text-black dark:text-white leading-tight mb-3 text-center">
               GET A 10%
               <br />
               DISCOUNT?
             </h2>
           </div>
 
-          <p className="text-[13px] text-[#444] leading-relaxed mb-6">
+          <p className="text-[13px] text-[#444] dark:text-neutral-300 leading-relaxed mb-6">
             Sign up now and receive{" "}
             <strong>early access, exclusive offers</strong> &amp; more, as well
             as a <strong>voucher</strong> for your first order.
@@ -92,7 +92,7 @@ const DiscountModal = ({ onClose }: DiscountModalProps) => {
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
               required
-              className="border border-black/20 px-4 py-3 text-[13px] text-black placeholder-black/40 focus:outline-none focus:border-black transition-colors"
+              className="border border-black/20 dark:border-neutral-800 px-4 py-3 text-[13px] text-black dark:text-white bg-transparent placeholder-black/40 dark:placeholder-neutral-500 focus:outline-none focus:border-black dark:focus:border-white transition-colors"
             />
             <input
               type="email"
@@ -100,24 +100,24 @@ const DiscountModal = ({ onClose }: DiscountModalProps) => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="border border-black/20 px-4 py-3 text-[13px] text-black placeholder-black/40 focus:outline-none focus:border-black transition-colors"
+              className="border border-black/20 dark:border-neutral-800 px-4 py-3 text-[13px] text-black dark:text-white bg-transparent placeholder-black/40 dark:placeholder-neutral-500 focus:outline-none focus:border-black dark:focus:border-white transition-colors"
             />
 
             <div>
-              <p className="text-[13px] font-bold text-black mb-3">
+              <p className="text-[13px] font-bold text-black dark:text-white mb-3">
                 Which products are you interested in?
               </p>
               <div className="flex items-center gap-6">
                 {["Men", "Women", "Everything"].map((item) => (
                   <label
                     key={item}
-                    className="flex items-center gap-2 cursor-pointer text-[13px] text-black select-none"
+                    className="flex items-center gap-2 cursor-pointer text-[13px] text-black dark:text-white select-none"
                   >
                     <input
                       type="checkbox"
                       checked={interests.includes(item)}
                       onChange={() => toggleInterest(item)}
-                      className="w-4 h-4 border border-black/30 accent-black cursor-pointer"
+                      className="w-4 h-4 border border-black/30 dark:border-neutral-700 accent-black dark:accent-white cursor-pointer"
                     />
                     {item}
                   </label>
@@ -127,13 +127,13 @@ const DiscountModal = ({ onClose }: DiscountModalProps) => {
 
             <button
               type="submit"
-              className="w-full bg-black text-white py-4 text-[13px] font-bold tracking-[0.15em] uppercase hover:bg-neutral-800 transition-colors duration-300 mt-1 cursor-pointer"
+              className="w-full bg-black dark:bg-white text-white dark:text-black py-4 text-[13px] font-bold tracking-[0.15em] uppercase hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors duration-300 mt-1 cursor-pointer"
             >
               Register now
             </button>
           </form>
 
-          <p className="text-[10px] text-[#888] text-center mt-4 leading-relaxed">
+          <p className="text-[10px] text-[#888] dark:text-neutral-400 text-center mt-4 leading-relaxed">
             By registering, you agree to receive marketing emails from PEGADOR®.
             Personal data will be used in accordance with PEGADOR®&apos;s{" "}
             <a href="/privacy-policy" className="underline text-blue-600">

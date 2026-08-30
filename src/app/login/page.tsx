@@ -9,14 +9,14 @@ export default function LoginPage() {
   const [newsletter, setNewsletter] = useState(false);
 
   return (
-    <div className="min-h-screen bg-white flex flex-col">
+    <div className="min-h-screen bg-white dark:bg-neutral-950 text-black dark:text-white flex flex-col transition-colors duration-300">
       {/* Logo */}
       <div className="flex justify-center pt-10 pb-6">
         <Link href="/">
           <img
             src="https://pegador.com/cdn/shop/files/3.svg?v=1758194581&width=400"
             alt="Pegador Logo"
-            className="h-8 w-auto brightness-0"
+            className="h-8 w-auto brightness-0 dark:brightness-100"
           />
         </Link>
       </div>
@@ -26,10 +26,10 @@ export default function LoginPage() {
       {/* Card */}
       <div className="flex flex-1 flex-col items-center justify-start px-4 pt-10">
         <div className="w-full max-w-[420px]">
-          <h1 className="text-[22px] font-bold tracking-tight mb-1">Login</h1>
-          <p className="text-[13px] text-neutral-500 mb-7">
+          <h1 className="text-[22px] font-bold tracking-tight mb-1 text-black dark:text-white">Login</h1>
+          <p className="text-[13px] text-neutral-500 dark:text-neutral-400 mb-7">
             Sign in or{" "}
-            <Link href="/signup" className="text-blue-600 hover:underline">
+            <Link href="/signup" className="text-blue-600 dark:text-blue-400 hover:underline">
               create an account
             </Link>
           </p>
@@ -43,23 +43,23 @@ export default function LoginPage() {
 
           {/* Divider */}
           <div className="flex items-center gap-3 mb-6">
-            <hr className="flex-1 border-neutral-200" />
-            <span className="text-[12px] text-neutral-400">or</span>
-            <hr className="flex-1 border-neutral-200" />
+            <hr className="flex-1 border-neutral-200 dark:border-neutral-800" />
+            <span className="text-[12px] text-neutral-400 dark:text-neutral-500">or</span>
+            <hr className="flex-1 border-neutral-200 dark:border-neutral-800" />
           </div>
 
           {/* Email field */}
-          <div className="flex items-center border border-neutral-200 rounded-full px-5 py-3.5 mb-4 focus-within:border-neutral-400 transition-colors">
+          <div className="flex items-center border border-neutral-200 dark:border-neutral-800 rounded-full px-5 py-3.5 mb-4 focus-within:border-neutral-400 dark:focus-within:border-neutral-500 transition-colors">
             <input
               type="email"
               placeholder="E-mail address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex-1 text-[13px] outline-none bg-transparent placeholder-neutral-400"
+              className="flex-1 text-[13px] outline-none bg-transparent placeholder-neutral-400 dark:placeholder-neutral-500 text-black dark:text-white"
             />
             <button
               type="button"
-              className="ml-2 text-neutral-500 hover:text-black transition-colors"
+              className="ml-2 text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
               aria-label="Continue"
             >
               <ArrowRight size={18} />
@@ -72,20 +72,19 @@ export default function LoginPage() {
               type="checkbox"
               checked={newsletter}
               onChange={(e) => setNewsletter(e.target.checked)}
-              className="w-4 h-4 rounded border-neutral-300 accent-[#5147e5]"
+              className="w-4 h-4 rounded border-neutral-300 dark:border-neutral-700 accent-[#5147e5]"
             />
-            <span className="text-[13px] text-neutral-700">
+            <span className="text-[13px] text-neutral-700 dark:text-neutral-300">
               Receive news and offers via email
             </span>
           </label>
 
           {/* Terms */}
-          <p className="text-[11px] text-neutral-400 text-center leading-relaxed">
+          <p className="text-[11px] text-neutral-400 dark:text-neutral-500 text-center leading-relaxed">
             By continuing, you agree to our{" "}
-            <Link href="/terms" className="text-blue-600 hover:underline">
+            <Link href="/terms" className="text-blue-600 dark:text-blue-400 hover:underline">
               Terms and Conditions
             </Link>
-            
           </p>
         </div>
       </div>
@@ -94,7 +93,7 @@ export default function LoginPage() {
       <div className="flex justify-center py-10">
         <Link
           href="/privacy"
-          className="text-[13px] font-medium text-black hover:underline"
+          className="text-[13px] font-medium text-black dark:text-white hover:underline"
         >
           Privacy Policy
         </Link>

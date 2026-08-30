@@ -28,10 +28,10 @@ interface CheckoutFormProps {
 type Step = "contact" | "shipping" | "payment";
 
 const inputClass =
-  "w-full border border-neutral-200 bg-white px-4 py-3 text-[13px] tracking-wide text-black placeholder:text-neutral-300 focus:border-black focus:outline-none transition-colors";
+  "w-full border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 px-4 py-3 text-[13px] tracking-wide text-black dark:text-white placeholder:text-neutral-300 dark:placeholder:text-neutral-500 focus:border-black dark:focus:border-white focus:outline-none transition-colors";
 
 const labelClass =
-  "block text-[10px] font-bold tracking-[0.18em] uppercase text-neutral-400 mb-1.5";
+  "block text-[10px] font-bold tracking-[0.18em] uppercase text-neutral-400 dark:text-neutral-500 mb-1.5";
 
 const validationSchema = Yup.object().shape({
   email: Yup.string()
@@ -161,7 +161,7 @@ export default function CheckoutForm({
   const stepIndex = steps.findIndex((s) => s.id === step);
 
   return (
-    <section className="min-h-[calc(100vh-80px)] bg-white">
+    <section className="min-h-[calc(100vh-80px)] bg-white dark:bg-neutral-950 text-black dark:text-white transition-colors duration-300">
       <div className="mx-auto max-w-screen-xl px-4 py-10 sm:px-8">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_380px]">
           {/* ── Left panel ── */}
@@ -169,7 +169,7 @@ export default function CheckoutForm({
             {/* Back button */}
             <button
               onClick={onBack}
-              className="mb-8 inline-flex items-center gap-2 text-[11px] font-bold tracking-[0.16em] uppercase text-neutral-500 hover:text-black transition-colors"
+              className="mb-8 inline-flex items-center gap-2 text-[11px] font-bold tracking-[0.16em] uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
             >
               <ArrowLeft size={14} strokeWidth={2} />
               Back to Bag
@@ -183,24 +183,24 @@ export default function CheckoutForm({
                     <span
                       className={`flex h-5 w-5 items-center justify-center rounded-full text-[10px] font-bold transition-all duration-300 ${
                         i < stepIndex
-                          ? "bg-black text-white"
+                          ? "bg-black dark:bg-white text-white dark:text-black"
                           : i === stepIndex
-                            ? "bg-black text-white"
-                            : "bg-neutral-100 text-neutral-400"
+                            ? "bg-black dark:bg-white text-white dark:text-black"
+                            : "bg-neutral-100 dark:bg-neutral-800 text-neutral-400 dark:text-neutral-500"
                       }`}
                     >
                       {i < stepIndex ? "✓" : i + 1}
                     </span>
                     <span
                       className={`text-[10px] font-bold tracking-[0.16em] uppercase transition-colors duration-300 ${
-                        i === stepIndex ? "text-black" : "text-neutral-400"
+                        i === stepIndex ? "text-black dark:text-white" : "text-neutral-400 dark:text-neutral-500"
                       }`}
                     >
                       {s.label}
                     </span>
                   </div>
                   {i < steps.length - 1 && (
-                    <ChevronRight size={12} className="text-neutral-300" />
+                    <ChevronRight size={12} className="text-neutral-300 dark:text-neutral-600" />
                   )}
                 </div>
               ))}
@@ -210,7 +210,7 @@ export default function CheckoutForm({
             {step === "contact" && (
               <div className="space-y-6">
                 <div>
-                  <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-neutral-400 mb-5 flex items-center gap-2">
+                  <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-neutral-400 dark:text-neutral-500 mb-5 flex items-center gap-2">
                     <User size={13} strokeWidth={2} />
                     Contact Information
                   </p>
@@ -250,7 +250,7 @@ export default function CheckoutForm({
                     const isValid = await validateStep(["email", "phone"]);
                     if (isValid) setStep("shipping");
                   }}
-                  className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200"
+                  className="w-full bg-black dark:bg-white text-white dark:text-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase hover:bg-neutral-800 dark:hover:bg-neutral-200 active:scale-[0.99] transition-all duration-200"
                 >
                   Continue to Shipping
                 </button>
@@ -261,7 +261,7 @@ export default function CheckoutForm({
             {step === "shipping" && (
               <div className="space-y-6">
                 <div>
-                  <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-neutral-400 mb-5 flex items-center gap-2">
+                  <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-neutral-400 dark:text-neutral-500 mb-5 flex items-center gap-2">
                     <MapPin size={13} strokeWidth={2} />
                     Shipping Address
                   </p>
@@ -357,19 +357,19 @@ export default function CheckoutForm({
                         value={formik.values.country}
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
-                        className={`${getInputClass("country")} cursor-pointer`}
+                        className={`${getInputClass("country")} cursor-pointer text-black dark:text-white`}
                       >
-                        <option value="">Select country…</option>
-                        <option>Germany</option>
-                        <option>Austria</option>
-                        <option>Switzerland</option>
-                        <option>Netherlands</option>
-                        <option>France</option>
-                        <option>Italy</option>
-                        <option>Spain</option>
-                        <option>United Kingdom</option>
-                        <option>United States</option>
-                        <option>Pakistan</option>
+                        <option value="" className="bg-white dark:bg-neutral-900 text-neutral-400">Select country…</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">Germany</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">Austria</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">Switzerland</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">Netherlands</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">France</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">Italy</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">Spain</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">United Kingdom</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">United States</option>
+                        <option className="bg-white dark:bg-neutral-900 text-black dark:text-white">Pakistan</option>
                       </select>
                       {renderError("country")}
                     </div>
@@ -378,7 +378,7 @@ export default function CheckoutForm({
 
                 {/* Shipping method */}
                 <div>
-                  <p className="text-[10px] font-bold tracking-[0.18em] uppercase text-neutral-400 mb-3">
+                  <p className="text-[10px] font-bold tracking-[0.18em] uppercase text-neutral-400 dark:text-neutral-500 mb-3">
                     Shipping Method
                   </p>
                   <div className="space-y-2">
@@ -399,25 +399,25 @@ export default function CheckoutForm({
                     ].map((opt) => (
                       <label
                         key={opt.label}
-                        className="flex items-center justify-between border border-neutral-200 px-4 py-3 cursor-pointer hover:border-black transition-colors has-[:checked]:border-black"
+                        className="flex items-center justify-between border border-neutral-200 dark:border-neutral-800 px-4 py-3 cursor-pointer hover:border-black dark:hover:border-white transition-colors has-[:checked]:border-black dark:has-[:checked]:border-white text-black dark:text-white"
                       >
                         <div className="flex items-center gap-3">
                           <input
                             type="radio"
                             name="shipping"
                             defaultChecked={opt.label === "Standard Delivery"}
-                            className="accent-black"
+                            className="accent-black dark:accent-white"
                           />
                           <div>
-                            <p className="text-[12px] font-semibold text-black tracking-wide">
+                            <p className="text-[12px] font-semibold text-black dark:text-white tracking-wide">
                               {opt.label}
                             </p>
-                            <p className="text-[11px] text-neutral-400">
+                            <p className="text-[11px] text-neutral-400 dark:text-neutral-500">
                               {opt.sub}
                             </p>
                           </div>
                         </div>
-                        <span className="text-[12px] font-bold text-black">
+                        <span className="text-[12px] font-bold text-black dark:text-white">
                           {opt.price}
                         </span>
                       </label>
@@ -438,7 +438,7 @@ export default function CheckoutForm({
                     ]);
                     if (isValid) setStep("payment");
                   }}
-                  className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200"
+                  className="w-full bg-black dark:bg-white text-white dark:text-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase hover:bg-neutral-800 dark:hover:bg-neutral-200 active:scale-[0.99] transition-all duration-200"
                 >
                   Continue to Payment
                 </button>
@@ -449,7 +449,7 @@ export default function CheckoutForm({
             {step === "payment" && (
               <div className="space-y-6">
                 <div>
-                  <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-neutral-400 mb-5 flex items-center gap-2">
+                  <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-neutral-400 dark:text-neutral-500 mb-5 flex items-center gap-2">
                     <CreditCard size={13} strokeWidth={2} />
                     Payment Details
                   </p>
@@ -528,7 +528,7 @@ export default function CheckoutForm({
                         <CreditCard
                           size={16}
                           strokeWidth={1.5}
-                          className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-300"
+                          className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-300 dark:text-neutral-600"
                         />
                       </div>
                       {renderError("cardNumber")}
@@ -574,7 +574,7 @@ export default function CheckoutForm({
                   </div>
 
                   {/* Security note */}
-                  <div className="flex items-center gap-2 mt-4 text-neutral-400">
+                  <div className="flex items-center gap-2 mt-4 text-neutral-400 dark:text-neutral-500">
                     <ShieldCheck size={13} strokeWidth={1.5} />
                     <p className="text-[10px] tracking-wide">
                       Your payment is secured with 256-bit SSL encryption
@@ -586,7 +586,7 @@ export default function CheckoutForm({
                   type="button"
                   onClick={() => formik.handleSubmit()}
                   disabled={formik.isSubmitting}
-                  className="w-full bg-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase text-white hover:bg-neutral-800 active:scale-[0.99] transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                  className="w-full bg-black dark:bg-white text-white dark:text-black py-4 text-[11px] font-bold tracking-[0.22em] uppercase hover:bg-neutral-800 dark:hover:bg-neutral-200 active:scale-[0.99] transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
                   <Lock size={12} strokeWidth={2.5} />
                   Place Order — {currency}
@@ -598,40 +598,40 @@ export default function CheckoutForm({
 
           {/* ── Right: Order summary ── */}
           <div className="lg:sticky lg:top-28 h-fit">
-            <div className="border border-neutral-100 bg-neutral-50 p-6 sm:p-8">
-              <h2 className="text-[12px] font-bold tracking-[0.22em] uppercase text-black mb-6">
+            <div className="border border-neutral-100 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 p-6 sm:p-8 text-black dark:text-white transition-colors duration-300">
+              <h2 className="text-[12px] font-bold tracking-[0.22em] uppercase text-black dark:text-white mb-6">
                 Order Summary
               </h2>
 
-              <div className="space-y-3 pb-5 border-b border-neutral-200">
-                <div className="flex justify-between text-[12px] text-neutral-600">
+              <div className="space-y-3 pb-5 border-b border-neutral-200 dark:border-neutral-800">
+                <div className="flex justify-between text-[12px] text-neutral-600 dark:text-neutral-300">
                   <span>
                     Subtotal{" "}
-                    <span className="text-neutral-400">
+                    <span className="text-neutral-400 dark:text-neutral-500">
                       ({itemCount} {itemCount === 1 ? "item" : "items"})
                     </span>
                   </span>
-                  <span className="font-medium">
+                  <span className="font-medium text-black dark:text-white">
                     {currency}
                     {subtotal.toFixed(2)}
                   </span>
                 </div>
 
                 {discount > 0 && (
-                  <div className="flex justify-between text-[12px] text-green-600">
+                  <div className="flex justify-between text-[12px] text-green-600 dark:text-green-400">
                     <span>Discount (10%)</span>
-                    <span className="font-medium">
+                    <span className="font-medium text-green-600 dark:text-green-400">
                       −{currency}
                       {discount.toFixed(2)}
                     </span>
                   </div>
                 )}
 
-                <div className="flex justify-between text-[12px] text-neutral-600">
+                <div className="flex justify-between text-[12px] text-neutral-600 dark:text-neutral-300">
                   <span>Shipping</span>
-                  <span className="font-medium">
+                  <span className="font-medium text-black dark:text-white">
                     {shipping === 0 ? (
-                      <span className="text-green-600">Free</span>
+                      <span className="text-green-600 dark:text-green-400">Free</span>
                     ) : (
                       `${currency}${shipping.toFixed(2)}`
                     )}
@@ -640,26 +640,26 @@ export default function CheckoutForm({
               </div>
 
               <div className="flex justify-between items-baseline pt-5 mb-6">
-                <span className="text-[12px] font-bold tracking-[0.16em] uppercase text-black">
+                <span className="text-[12px] font-bold tracking-[0.16em] uppercase text-black dark:text-white">
                   Total
                 </span>
                 <div className="text-right">
-                  <span className="text-[20px] font-bold tracking-tight text-black">
+                  <span className="text-[20px] font-bold tracking-tight text-black dark:text-white">
                     {currency}
                     {total.toFixed(2)}
                   </span>
-                  <p className="text-[10px] text-neutral-400 mt-0.5">
+                  <p className="text-[10px] text-neutral-400 dark:text-neutral-500 mt-0.5">
                     Incl. VAT
                   </p>
                 </div>
               </div>
 
               {/* Payment logos */}
-              <div className="flex items-center justify-center gap-2 flex-wrap pt-2 border-t border-neutral-100">
+              <div className="flex items-center justify-center gap-2 flex-wrap pt-2 border-t border-neutral-100 dark:border-neutral-800">
                 {["Visa", "MC", "PayPal", "Klarna"].map((pm) => (
                   <span
                     key={pm}
-                    className="rounded border border-neutral-200 bg-white px-2 py-0.5 text-[9px] font-semibold text-neutral-500 tracking-wider uppercase"
+                    className="rounded border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-800 px-2 py-0.5 text-[9px] font-semibold text-neutral-500 dark:text-neutral-400 tracking-wider uppercase"
                   >
                     {pm}
                   </span>

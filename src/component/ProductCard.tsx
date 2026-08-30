@@ -62,7 +62,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
               e.preventDefault();
               setShowQuickSize(!showQuickSize);
             }}
-            className="w-8 h-8 rounded-full bg-white/90 hover:bg-black hover:text-white text-black shadow-md flex items-center justify-center transition-all duration-200 cursor-pointer"
+            className="w-8 h-8 rounded-full bg-white/90 dark:bg-neutral-800/90 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black text-black dark:text-white shadow-md flex items-center justify-center transition-all duration-200 cursor-pointer"
             aria-label="Quick Add"
           >
             <Plus size={16} strokeWidth={2} />
@@ -70,8 +70,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
 
           {/* Quick Size Popover */}
           {showQuickSize && (
-            <div className="absolute bottom-10 right-0 bg-white shadow-xl border border-neutral-100 p-2 rounded flex flex-col gap-1 z-30 min-w-[100px] animate-fade-in">
-              <span className="text-[9px] font-bold text-neutral-400 uppercase tracking-wider px-2 py-0.5">
+            <div className="absolute bottom-10 right-0 bg-white dark:bg-neutral-900 shadow-xl border border-neutral-100 dark:border-neutral-800 p-2 rounded flex flex-col gap-1 z-30 min-w-[100px] animate-fade-in text-black dark:text-white">
+              <span className="text-[9px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider px-2 py-0.5">
                 Select Size
               </span>
               <div className="grid grid-cols-3 gap-1">
@@ -88,8 +88,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
                     }}
                     className={`text-[10px] font-medium py-1 px-1.5 rounded border transition-colors ${
                       selectedSize === sz
-                        ? "bg-black text-white border-black"
-                        : "bg-neutral-50 text-black border-neutral-200 hover:bg-neutral-100"
+                        ? "bg-black dark:bg-white text-white dark:text-black border-black dark:border-white"
+                        : "bg-neutral-50 dark:bg-neutral-800 text-black dark:text-white border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-700"
                     }`}
                   >
                     {sz}
@@ -106,18 +106,18 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickAdd }) => {
         <Link
           href={`/collections/${product.collectionSlug}/products/${product.slug}`}
         >
-          <h3 className="text-[12px] sm:text-[13px] font-normal text-[#1a1a1a] line-clamp-1 group-hover:underline underline-offset-4 decoration-1">
+          <h3 className="text-[12px] sm:text-[13px] font-normal text-[#1a1a1a] dark:text-white line-clamp-1 group-hover:underline underline-offset-4 decoration-1">
             {product.name}
           </h3>
         </Link>
 
         <div className="flex items-center gap-2 text-[11px] sm:text-[12px]">
-          <span className="text-[#1a1a1a] font-normal">
+          <span className="text-[#1a1a1a] dark:text-neutral-200 font-normal">
             {product.currencySymbol}
             {product.price.toFixed(2)}
           </span>
           {product.originalPrice && (
-            <span className="text-neutral-400 line-through">
+            <span className="text-neutral-400 dark:text-neutral-500 line-through">
               {product.currencySymbol}
               {product.originalPrice.toFixed(2)}
             </span>

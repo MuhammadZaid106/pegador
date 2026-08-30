@@ -148,26 +148,26 @@ export default function CollectionDetailPage({ params }: PageProps) {
       <section className="pt-24 sm:pt-32 pb-12 px-4 sm:px-8 md:px-12 max-w-[1920px] mx-auto w-full">
         {/* Centered Collection Title & Count */}
         <div className="text-center mb-6 sm:mb-8">
-          <h1 className="text-[18px] sm:text-[24px] md:text-[28px] font-normal tracking-[0.16em] uppercase text-[#111111]">
+          <h1 className="text-[18px] sm:text-[24px] md:text-[28px] font-normal tracking-[0.16em] uppercase text-[#111111] dark:text-white">
             {currentCollection.name}
           </h1>
-          <p className="text-[11px] sm:text-[13px] text-neutral-500 font-light mt-1">
+          <p className="text-[11px] sm:text-[13px] text-neutral-500 dark:text-neutral-400 font-light mt-1">
             {filteredProducts.length}{" "}
             {filteredProducts.length === 1 ? "product" : "products"}
           </p>
         </div>
 
         {/* Controls Bar: Filter (Left) | Grid Switcher & Sort (Right) */}
-        <div className="flex items-center justify-between border-b border-neutral-100 pb-4 mb-6 sm:mb-8">
+        <div className="flex items-center justify-between border-b border-neutral-100 dark:border-neutral-800 pb-4 mb-6 sm:mb-8">
           {/* Left: Filter Toggle Button */}
           <button
             onClick={() => setIsFilterOpen(true)}
-            className="flex items-center gap-2 text-[11px] sm:text-[12px] font-medium tracking-widest uppercase text-[#111] hover:opacity-60 transition-opacity cursor-pointer"
+            className="flex items-center gap-2 text-[11px] sm:text-[12px] font-medium tracking-widest uppercase text-[#111] dark:text-white hover:opacity-60 transition-opacity cursor-pointer"
           >
             <SlidersHorizontal size={16} />
             <span>Filter</span>
             {totalActiveFilters > 0 && (
-              <span className="ml-1 w-4 h-4 rounded-full bg-black text-white text-[9px] flex items-center justify-center font-bold">
+              <span className="ml-1 w-4 h-4 rounded-full bg-black dark:bg-white text-white dark:text-black text-[9px] flex items-center justify-center font-bold">
                 {totalActiveFilters}
               </span>
             )}
@@ -176,15 +176,15 @@ export default function CollectionDetailPage({ params }: PageProps) {
           {/* Right: Grid Switcher Icons & Sort Dropdown */}
           <div className="flex items-center gap-4 sm:gap-6">
             {/* Desktop Grid Switchers (4 columns vs 6 columns) */}
-            <div className="hidden lg:flex items-center gap-1.5 border-r border-neutral-200 pr-5">
+            <div className="hidden lg:flex items-center gap-1.5 border-r border-neutral-200 dark:border-neutral-800 pr-5">
               {/* 4 Column Icon */}
               <button
                 onClick={() => setGridCols(4)}
                 aria-label="4 columns per row"
                 className={`p-1.5 rounded transition-all cursor-pointer ${
                   gridCols === 4
-                    ? "text-black bg-neutral-100"
-                    : "text-neutral-400 hover:text-black"
+                    ? "text-black dark:text-white bg-neutral-100 dark:bg-neutral-800"
+                    : "text-neutral-400 dark:text-neutral-500 hover:text-black dark:hover:text-white"
                 }`}
                 title="4 Columns"
               >
@@ -197,8 +197,8 @@ export default function CollectionDetailPage({ params }: PageProps) {
                 aria-label="6 columns per row"
                 className={`p-1.5 rounded transition-all cursor-pointer ${
                   gridCols === 6
-                    ? "text-black bg-neutral-100"
-                    : "text-neutral-400 hover:text-black"
+                    ? "text-black dark:text-white bg-neutral-100 dark:bg-neutral-800"
+                    : "text-neutral-400 dark:text-neutral-500 hover:text-black dark:hover:text-white"
                 }`}
                 title="6 Columns"
               >
@@ -210,7 +210,7 @@ export default function CollectionDetailPage({ params }: PageProps) {
             <div className="relative">
               <button
                 onClick={() => setIsSortDropdownOpen(!isSortDropdownOpen)}
-                className="flex items-center gap-2 text-[11px] sm:text-[12px] font-medium tracking-widest uppercase text-[#111] hover:opacity-60 transition-opacity cursor-pointer"
+                className="flex items-center gap-2 text-[11px] sm:text-[12px] font-medium tracking-widest uppercase text-[#111] dark:text-white hover:opacity-60 transition-opacity cursor-pointer"
               >
                 <span>
                   {sortBy === "featured"
@@ -229,13 +229,13 @@ export default function CollectionDetailPage({ params }: PageProps) {
 
               {/* Dropdown Menu */}
               {isSortDropdownOpen && (
-                <div className="absolute right-0 top-8 z-30 w-48 bg-white border border-neutral-100 shadow-xl rounded-sm py-2 animate-fade-in">
+                <div className="absolute right-0 top-8 z-30 w-48 bg-white dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 text-black dark:text-white shadow-xl rounded-sm py-2 animate-fade-in">
                   <button
                     onClick={() => {
                       setSortBy("featured");
                       setIsSortDropdownOpen(false);
                     }}
-                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 flex items-center justify-between cursor-pointer"
+                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 dark:hover:bg-neutral-800 flex items-center justify-between cursor-pointer"
                   >
                     <span>Selected</span>
                     {sortBy === "featured" && <Check size={14} />}
@@ -245,7 +245,7 @@ export default function CollectionDetailPage({ params }: PageProps) {
                       setSortBy("price-asc");
                       setIsSortDropdownOpen(false);
                     }}
-                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 flex items-center justify-between cursor-pointer"
+                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 dark:hover:bg-neutral-800 flex items-center justify-between cursor-pointer"
                   >
                     <span>Price: Low to High</span>
                     {sortBy === "price-asc" && <Check size={14} />}
@@ -255,7 +255,7 @@ export default function CollectionDetailPage({ params }: PageProps) {
                       setSortBy("price-desc");
                       setIsSortDropdownOpen(false);
                     }}
-                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 flex items-center justify-between cursor-pointer"
+                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 dark:hover:bg-neutral-800 flex items-center justify-between cursor-pointer"
                   >
                     <span>Price: High to Low</span>
                     {sortBy === "price-desc" && <Check size={14} />}
@@ -265,7 +265,7 @@ export default function CollectionDetailPage({ params }: PageProps) {
                       setSortBy("newest");
                       setIsSortDropdownOpen(false);
                     }}
-                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 flex items-center justify-between cursor-pointer"
+                    className="w-full text-left px-4 py-2 text-[12px] hover:bg-neutral-50 dark:hover:bg-neutral-800 flex items-center justify-between cursor-pointer"
                   >
                     <span>Newest</span>
                     {sortBy === "newest" && <Check size={14} />}
@@ -279,12 +279,12 @@ export default function CollectionDetailPage({ params }: PageProps) {
         {/* Dynamic Grid: 2 cols on mobile, md:grid-cols-3, lg:grid-cols-4 OR lg:grid-cols-6 */}
         {filteredProducts.length === 0 ? (
           <div className="text-center py-20">
-            <p className="text-[14px] text-neutral-500 mb-4">
+            <p className="text-[14px] text-neutral-500 dark:text-neutral-400 mb-4">
               No products match your selected filters.
             </p>
             <button
               onClick={handleResetFilters}
-              className="bg-black text-white px-6 py-3 text-[11px] font-bold tracking-widest uppercase"
+              className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 text-[11px] font-bold tracking-widest uppercase hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
             >
               Clear Filters
             </button>

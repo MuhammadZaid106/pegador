@@ -51,7 +51,7 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] bg-white overflow-y-auto flex flex-col animate-fade-in">
+    <div className="fixed inset-0 z-[100] bg-white dark:bg-neutral-950 text-black dark:text-white overflow-y-auto flex flex-col animate-fade-in transition-colors duration-300">
       
       {/* Top Search bar row */}
       <div className="w-full max-w-[1440px] mx-auto px-6 sm:px-12 py-6 flex items-center justify-between gap-4">
@@ -63,15 +63,15 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({ isOpen, onClose }) => {
             placeholder="Search in our store"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="w-full bg-[#f2f2f2] text-black text-[14px] font-normal px-5 py-3 pr-12 rounded-none outline-none placeholder-neutral-500 focus:bg-[#eaeaea] transition-all"
+            className="w-full bg-[#f2f2f2] dark:bg-neutral-900 text-black dark:text-white text-[14px] font-normal px-5 py-3 pr-12 rounded-none outline-none placeholder-neutral-500 dark:placeholder-neutral-400 focus:bg-[#eaeaea] dark:focus:bg-neutral-800 transition-all border-0 border-b border-transparent focus:border-black dark:focus:border-white"
           />
-          <Search size={18} className="absolute right-4 top-1/2 -translate-y-1/2 text-neutral-500 pointer-events-none" />
+          <Search size={18} className="absolute right-4 top-1/2 -translate-y-1/2 text-neutral-500 dark:text-neutral-400 pointer-events-none" />
         </div>
 
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="text-black hover:opacity-60 transition-opacity p-2 cursor-pointer flex-shrink-0"
+          className="text-black dark:text-white hover:opacity-60 transition-opacity p-2 cursor-pointer flex-shrink-0"
           aria-label="Close search"
         >
           <X size={26} strokeWidth={1.5} />
@@ -84,7 +84,7 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({ isOpen, onClose }) => {
         {query.trim().length < 2 ? (
           /* Popular Categories block */
           <div className="mt-8 space-y-8 animate-fade-in">
-            <h3 className="text-center text-[13px] font-bold tracking-[0.18em] uppercase text-neutral-800">
+            <h3 className="text-center text-[13px] font-bold tracking-[0.18em] uppercase text-neutral-800 dark:text-neutral-300">
               POPULAR CATEGORIES
             </h3>
 
@@ -92,10 +92,10 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({ isOpen, onClose }) => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {popularCategories.map((cat, idx) => (
                 <Link 
-                  key={idx} 
+                   key={idx} 
                   href={cat.href}
                   onClick={onClose}
-                  className="group relative w-full aspect-[4/3] bg-[#f4f4f4] overflow-hidden block"
+                  className="group relative w-full aspect-[4/3] bg-[#f4f4f4] dark:bg-neutral-900 overflow-hidden block"
                 >
                   <Image
                     src={cat.image}
@@ -117,17 +117,17 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({ isOpen, onClose }) => {
         ) : (
           /* Search Results Block */
           <div className="mt-8 space-y-6 animate-fade-in">
-            <div className="flex justify-between items-center border-b border-neutral-100 pb-3">
-              <span className="text-[12px] text-neutral-500 uppercase tracking-widest">
+            <div className="flex justify-between items-center border-b border-neutral-100 dark:border-neutral-800 pb-3">
+              <span className="text-[12px] text-neutral-500 dark:text-neutral-400 uppercase tracking-widest">
                 Search Results for &quot;{query}&quot;
               </span>
-              <span className="text-[12px] font-semibold text-black uppercase tracking-widest">
+              <span className="text-[12px] font-semibold text-black dark:text-white uppercase tracking-widest">
                 {results.length} {results.length === 1 ? "Result" : "Results"}
               </span>
             </div>
 
             {results.length === 0 ? (
-              <div className="text-center py-20 text-neutral-500 text-[14px]">
+              <div className="text-center py-20 text-neutral-500 dark:text-neutral-400 text-[14px]">
                 No products found matching your search. Try searching for hoodies, tees, or jackets.
               </div>
             ) : (

@@ -9,7 +9,7 @@ export default function CollectionsLayout({ children }: { children: React.ReactN
     <>
       <AnouncementBar />
       <Header />
-      <main className="min-h-screen bg-white">
+      <main className="min-h-screen bg-white dark:bg-neutral-950 text-black dark:text-white transition-colors duration-300">
         {children}
       </main>
       <Footer />

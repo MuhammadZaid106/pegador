@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const CollectionSection = () => {
   return (
-    <section className="bg-white py-12 md:py-16">
+    <section className="bg-white dark:bg-neutral-950 py-12 md:py-16 transition-colors duration-300">
       <div className="mx-auto max-w-screen-2xl">
         {/* Mobile: horizontal scrollable row. md+: standard 2-col grid */}
         <div
@@ -27,7 +27,7 @@ const CollectionSection = () => {
             <div className="absolute top-6 left-6 z-10">
               <Link
                 href="/collections/men"
-                className="inline-block bg-white text-black px-5 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-sm"
+                className="inline-block bg-white dark:bg-neutral-900 text-black dark:text-white px-5 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black dark:border dark:border-neutral-800 shadow-sm"
               >
                 New Men&apos;s
               </Link>
@@ -47,7 +47,7 @@ const CollectionSection = () => {
             <div className="absolute top-6 left-6 z-10">
               <Link
                 href="/collections/women"
-                className="inline-block bg-white text-black px-5 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-sm"
+                className="inline-block bg-white dark:bg-neutral-900 text-black dark:text-white px-5 py-3 text-[10px] font-bold tracking-[0.18em] uppercase transition-all duration-300 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black dark:border dark:border-neutral-800 shadow-sm"
               >
                 New Women&apos;s
               </Link>

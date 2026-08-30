@@ -22,7 +22,7 @@ export default function CollectionsPage() {
     <section className="pt-24 sm:pt-32 pb-16 px-4 sm:px-8 md:px-12 max-w-screen-2xl mx-auto w-full">
       {/* Heading */}
       <div className="text-center mb-10 sm:mb-16">
-        <h1 className="text-[20px] sm:text-[26px] md:text-[30px] font-normal tracking-[0.18em] uppercase text-[#111111]">
+        <h1 className="text-[20px] sm:text-[26px] md:text-[30px] font-normal tracking-[0.18em] uppercase text-[#111111] dark:text-white">
           OUR COLLECTIONS
         </h1>
       </div>

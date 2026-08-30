@@ -20,7 +20,7 @@ const AnnouncementBar = () => {
   }, []);
 
   return (
-    <div className="bg-[#F4F4F4] text-black text-[12px] md:text-[14px] font-medium flex justify-center items-center py-2 px-4 overflow-hidden h-8 relative">
+    <div className="bg-[#F4F4F4] dark:bg-neutral-900 text-black dark:text-white text-[12px] md:text-[14px] font-medium flex justify-center items-center py-2 px-4 overflow-hidden h-8 relative transition-colors duration-300">
       <AnimatePresence mode="wait">
         <motion.a
           key={current}

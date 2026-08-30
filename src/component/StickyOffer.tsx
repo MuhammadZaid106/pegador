@@ -35,7 +35,7 @@ const StickyOffer = () => {
       >
         <button
           onClick={() => setModalOpen(true)}
-          className="flex items-center bg-white text-black px-8 py-4 rounded font-bold tracking-[0.12em] uppercase border border-black/10 hover:bg-black hover:text-white transition-all duration-300 ml-6 text-[1rem] cursor-pointer"
+          className="flex items-center bg-white dark:bg-neutral-900 text-black dark:text-white px-8 py-4 rounded font-bold tracking-[0.12em] uppercase border border-black/10 dark:border-neutral-800 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 ml-6 text-[1rem] cursor-pointer"
         >
           Get 10% off
         </button>

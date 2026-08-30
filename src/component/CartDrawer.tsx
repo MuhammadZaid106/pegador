@@ -43,18 +43,18 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
         role="dialog"
         aria-modal="true"
         aria-label="Shopping cart"
-        className={`fixed top-0 right-0 z-[70] h-full w-full sm:w-[420px] bg-white shadow-2xl flex flex-col transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 z-[70] h-full w-full sm:w-[420px] bg-white dark:bg-neutral-950 text-black dark:text-white shadow-2xl flex flex-col transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* Header row */}
-        <div className="flex items-center justify-between px-6 py-5 border-b border-neutral-100">
+        <div className="flex items-center justify-between px-6 py-5 border-b border-neutral-100 dark:border-neutral-800">
           <div>
-            <span className="text-[13px] font-bold tracking-[0.18em] uppercase">
+            <span className="text-[13px] font-bold tracking-[0.18em] uppercase text-black dark:text-white">
               Your Bag
             </span>
             <div className="flex items-center gap-2 mt-0.5">
-              <span className="text-[10px] text-black font-normal tracking-[0.12em]">
+              <span className="text-[10px] text-black dark:text-neutral-300 font-normal tracking-[0.12em]">
                 {cartItems.length} {cartItems.length === 1 ? "style" : "styles"}
               </span>
             </div>
@@ -62,7 +62,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
           <button
             onClick={onClose}
             aria-label="Close cart"
-            className="text-black hover:opacity-60 transition-opacity cursor-pointer"
+            className="text-black dark:text-white hover:opacity-60 transition-opacity cursor-pointer"
           >
             <X size={22} strokeWidth={1.6} />
           </button>
@@ -72,27 +72,27 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
         {cartItems.length === 0 ? (
           <div className="flex flex-col flex-1 items-center justify-center px-8 text-center gap-5">
             <div className="mb-2">
-              <ShoppingBag size={56} strokeWidth={1.2} className="text-black" />
+              <ShoppingBag size={56} strokeWidth={1.2} className="text-black dark:text-white" />
             </div>
-            <h2 className="text-[15px] font-bold tracking-[0.14em] uppercase">
+            <h2 className="text-[15px] font-bold tracking-[0.14em] uppercase text-black dark:text-white">
               Your bag is empty
             </h2>
-            <p className="text-[13px] text-neutral-500">Looking for ideas?</p>
+            <p className="text-[13px] text-neutral-500 dark:text-neutral-400">Looking for ideas?</p>
             <Link
               href="/collections"
               onClick={onClose}
-              className="mt-2 w-full max-w-[280px] bg-black text-white text-[11px] font-bold tracking-[0.2em] uppercase py-4 text-center transition-all duration-300 hover:bg-neutral-800"
+              className="mt-2 w-full max-w-[280px] bg-black dark:bg-white text-white dark:text-black text-[11px] font-bold tracking-[0.2em] uppercase py-4 text-center transition-all duration-300 hover:bg-neutral-800 dark:hover:bg-neutral-200"
             >
               Start Shopping
             </Link>
           </div>
         ) : (
           <>
-            <div className="flex-1 overflow-y-auto px-6 py-4 divide-y divide-neutral-100">
+            <div className="flex-1 overflow-y-auto px-6 py-4 divide-y divide-neutral-100 dark:divide-neutral-800">
               {cartItems.map((item) => (
                 <div key={item.id} className="flex gap-4 py-4 first:pt-0">
                   {/* Image */}
-                  <div className="relative w-20 aspect-[3/4] bg-[#f4f4f4] flex-shrink-0">
+                  <div className="relative w-20 aspect-[3/4] bg-[#f4f4f4] dark:bg-neutral-900 flex-shrink-0">
                     <Image
                       src={item.product.image}
                       alt={item.product.name}
@@ -106,22 +106,22 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                   <div className="flex-1 flex flex-col justify-between">
                     <div>
                       <div className="flex justify-between gap-2">
-                        <h3 className="text-[12px] sm:text-[13px] font-normal text-black line-clamp-2">
+                        <h3 className="text-[12px] sm:text-[13px] font-normal text-black dark:text-white line-clamp-2">
                           {item.product.name}
                         </h3>
-                        <span className="text-[12px] font-semibold text-black flex-shrink-0">
+                        <span className="text-[12px] font-semibold text-black dark:text-white flex-shrink-0">
                           {item.product.currencySymbol}
                           {(item.product.price * item.quantity).toFixed(2)}
                         </span>
                       </div>
-                      <p className="text-[11px] text-neutral-400 mt-1">
+                      <p className="text-[11px] text-neutral-400 dark:text-neutral-500 mt-1">
                         Size: {item.size}
                       </p>
                     </div>
 
                     {/* Qty & Remove */}
                     <div className="flex items-center justify-between mt-2">
-                      <div className="flex items-center border border-neutral-200">
+                      <div className="flex items-center border border-neutral-200 dark:border-neutral-700">
                         <button
                           onClick={() =>
                             dispatch(
@@ -131,11 +131,11 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                               }),
                             )
                           }
-                          className="px-2.5 py-1 text-neutral-500 hover:text-black transition-colors"
+                          className="px-2.5 py-1 text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
                         >
                           <Minus size={10} />
                         </button>
-                        <span className="text-[12px] font-medium w-6 text-center">
+                        <span className="text-[12px] font-medium w-6 text-center text-black dark:text-white">
                           {item.quantity}
                         </span>
                         <button
@@ -147,7 +147,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                               }),
                             )
                           }
-                          className="px-2.5 py-1 text-neutral-500 hover:text-black transition-colors"
+                          className="px-2.5 py-1 text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
                         >
                           <Plus size={10} />
                         </button>
@@ -155,7 +155,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
 
                       <button
                         onClick={() => dispatch(removeItem(item.id))}
-                        className="text-neutral-400 hover:text-red-500 transition-colors p-1"
+                        className="text-neutral-400 dark:text-neutral-500 hover:text-red-500 transition-colors p-1"
                         aria-label="Remove item"
                       >
                         <Trash2 size={15} />
@@ -167,7 +167,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
             </div>
 
             {/* Footer */}
-            <div className="p-6 border-t border-neutral-100 bg-neutral-50 space-y-4">
+            <div className="p-6 border-t border-neutral-100 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 space-y-4 text-black dark:text-white">
               <div className="flex flex-col text-[13px] font-bold uppercase tracking-wider space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="tracking-[0.12em]">
@@ -180,7 +180,7 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                     {cartItems.reduce((s, i) => s + i.quantity, 0)}
                   </span>
                 </div>
-                <div className="h-px w-full bg-gray-200" />
+                <div className="h-px w-full bg-gray-200 dark:bg-neutral-800" />
                 <div className="flex items-center justify-between">
                   <span>Subtotal</span>
                   <span>
@@ -189,13 +189,13 @@ const CartDrawer = ({ isOpen, onClose }: CartDrawerProps) => {
                   </span>
                 </div>
               </div>
-              <p className="text-[10px] text-neutral-400 leading-relaxed">
+              <p className="text-[10px] text-neutral-400 dark:text-neutral-500 leading-relaxed">
                 Shipping, taxes, and discounts will be calculated at checkout.
               </p>
               <Link
                 href="/checkout"
                 onClick={onClose}
-                className="block w-full bg-black text-white text-[11px] font-bold tracking-[0.2em] uppercase py-4 text-center hover:bg-neutral-800 transition-all"
+                className="block w-full bg-black dark:bg-white text-white dark:text-black text-[11px] font-bold tracking-[0.2em] uppercase py-4 text-center hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-all"
               >
                 Proceed to Checkout
               </Link>
