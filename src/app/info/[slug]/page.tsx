@@ -92,7 +92,7 @@ export default async function InfoPage({
   if (!page) notFound();
 
   return (
-    <main className="min-h-screen bg-white flex flex-col justify-between">
+    <main className="min-h-screen bg-white dark:bg-neutral-950 flex flex-col justify-between transition-colors duration-300">
       <div>
         <AnouncementBar />
         <Header />
@@ -101,10 +101,10 @@ export default async function InfoPage({
           <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.2em] text-[#5147e5] uppercase">
             /info/{slug}
           </span>
-          <h1 className="text-[22px] sm:text-[28px] font-normal tracking-wide text-black uppercase leading-tight">
+          <h1 className="text-[22px] sm:text-[28px] font-normal tracking-wide text-black dark:text-white uppercase leading-tight">
             {page.title}
           </h1>
-          <p className="text-[13px] sm:text-[14px] text-neutral-500 font-light leading-relaxed">
+          <p className="text-[13px] sm:text-[14px] text-neutral-500 dark:text-neutral-400 font-light leading-relaxed">
             {page.text}
           </p>
         </section>
@@ -113,8 +113,8 @@ export default async function InfoPage({
       <div className="col-span-3 flex items-center justify-center mb-8">
         <Link
           href="/collections"
-          className="text-white text-[14px] font-semibold tracking-widest uppercase bg-black px-6 py-3 hover:bg-white hover:text-black
-                hover:border-black hover:border "
+          className="text-white text-[14px] font-semibold tracking-widest uppercase bg-black dark:bg-white dark:text-black px-6 py-3 hover:bg-white hover:text-black dark:hover:bg-neutral-200
+                border border-transparent hover:border-black dark:border-white dark:hover:border-neutral-200 transition-colors duration-200"
         >
           Shop Now
         </Link>

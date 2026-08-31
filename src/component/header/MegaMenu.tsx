@@ -25,7 +25,7 @@ const MenuAnchor = ({
       target={external ? "_blank" : undefined}
       rel={external ? "noreferrer" : undefined}
       onClick={onLinkClick}
-      className="block text-[12px] leading-tight text-[#101116] transition-opacity hover:opacity-70"
+      className="block text-[12px] leading-tight text-[#101116] dark:text-neutral-300 transition-opacity hover:opacity-70"
     >
       {link.label}
     </Link>
@@ -49,7 +49,7 @@ const MegaMenu = ({ activeMenu, onLinkClick }: MegaMenuProps) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -12 }}
           transition={{ duration: 0.28, ease: "easeOut" }}
-          className="mt-10 border-t border-black/10 bg-white pb-10 pt-7 max-h-[60vh] overflow-y-auto mega-menu-scroll"
+          className="mt-10 border-t border-black/10 dark:border-white/10 bg-white dark:bg-neutral-950 pb-10 pt-7 max-h-[60vh] overflow-y-auto mega-menu-scroll"
         >
           <motion.div
             className="mx-auto grid w-full max-w-screen-2xl gap-10 px-4 sm:px-8 lg:grid-cols-12"
@@ -76,7 +76,7 @@ const MegaMenu = ({ activeMenu, onLinkClick }: MegaMenuProps) => {
                   }}
                   transition={{ duration: 0.25, ease: "easeOut" }}
                 >
-                  <h3 className="text-[12px] font-medium tracking-[0.14em] text-[#2c3340]">
+                  <h3 className="text-[12px] font-medium tracking-[0.14em] text-[#2c3340] dark:text-neutral-400">
                     {column.title}
                   </h3>
                   <div className="space-y-3">
@@ -129,7 +129,7 @@ const MegaMenu = ({ activeMenu, onLinkClick }: MegaMenuProps) => {
                         className="object-cover transition duration-500 group-hover:scale-[1.03]"
                       />
                     </div>
-                    <p className="pt-3 text-center text-base text-[#111] sm:text-lg">
+                    <p className="pt-3 text-center text-base text-[#111] dark:text-neutral-200 sm:text-lg">
                       {card.caption}
                     </p>
                   </Link>

@@ -1,11 +1,21 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { User, Search, ShoppingBag, Menu, X, Sun, Moon } from "lucide-react";
+import {
+  User,
+  Search,
+  ShoppingBag,
+  Menu,
+  X,
+  Sun,
+  Moon,
+  LogOut,
+} from "lucide-react";
 import Link from "next/link";
-import { LayoutGroup, motion } from "motion/react";
+import { LayoutGroup, motion, AnimatePresence } from "motion/react";
 import MegaMenu from "./header/MegaMenu";
 import { useTheme } from "@/component/ThemeProvider";
+import { useAuth } from "@/component/AuthProvider";
 import { navLinks, megaMenuByNav } from "@/constants/navigation";
 import CartDrawer from "./CartDrawer";
 import SearchOverlay from "./SearchOverlay";
@@ -18,6 +28,7 @@ const Header = () => {
   const pathname = usePathname();
   const isHomePage = pathname === "/";
   const { theme, toggleTheme } = useTheme();
+  const { user, logout } = useAuth();
 
   const isScrolled = useScrolled(12);
   const { isCartOpen, setIsCartOpen } = useCartDrawer();
@@ -27,6 +38,8 @@ const Header = () => {
     null,
   );
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isAvatarOpen, setIsAvatarOpen] = useState(false);
+  const avatarRef = useRef<HTMLDivElement>(null);
 
   const cartItems = useAppSelector((state) => state.cart.items);
   const cartCount = cartItems.reduce((sum, item) => sum + item.quantity, 0);
@@ -36,6 +49,23 @@ const Header = () => {
 
   // Lock scroll when mobile menu is open
   useScrollLock(isMobileMenuOpen);
+
+  // Close avatar dropdown on outside click
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (avatarRef.current && !avatarRef.current.contains(e.target as Node)) {
+        setIsAvatarOpen(false);
+      }
+    }
+    if (isAvatarOpen)
+      document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isAvatarOpen]);
+
+  // Derive avatar letter
+  const avatarLetter = user
+    ? (user.name || user.email).charAt(0).toUpperCase()
+    : null; 
 
   const toggleMobileTab = (label: string) => {
     setExpandedMobileTab(expandedMobileTab === label ? null : label);
@@ -79,7 +109,9 @@ const Header = () => {
                       href={link.href}
                       onMouseEnter={() => setActiveMenu(link.label)}
                       className={`relative text-[11px] font-medium tracking-[0.16em] transition-opacity hover:opacity-70 sm:text-[13px] ${
-                        useLightTheme ? "text-black dark:text-white" : "text-white"
+                        useLightTheme
+                          ? "text-black dark:text-white"
+                          : "text-white"
                       }`}
                     >
                       {link.label}
@@ -102,10 +134,10 @@ const Header = () => {
           </div>
 
           {/* Center: Brand Logo */}
-          <div className="pointer-events-none absolute left-1/2 -translate-x-1/2">
+          <div className="pointer-events-none absolute left-[36%] sm:left-1/2 -translate-x-1/2">
             <Link
               href="/"
-              className="pointer-events-auto block w-24 sm:w-40 lg:w-64"
+              className="pointer-events-auto block w-30 sm:w-40 lg:w-64"
             >
               <img
                 className={`h-5 sm:h-7 lg:h-8 w-full object-contain transition-all duration-300 ${
@@ -119,7 +151,7 @@ const Header = () => {
           </div>
 
           {/* Right Side: Account, Search, Cart Icons */}
-          <div className="flex flex-1 items-center justify-end gap-2 sm:gap-4">
+          <div className="flex flex-1 items-center justify-end gap-1.5 sm:gap-4">
             {/* Theme Toggle Button */}
             <button
               onClick={toggleTheme}
@@ -141,15 +173,65 @@ const Header = () => {
               </motion.div>
             </button>
 
-            <Link
-              href="/login"
-              aria-label="Account"
-              className={`transition-opacity hover:opacity-70 ${
-                useLightTheme ? "text-black dark:text-white" : "text-white"
-              }`}
-            >
-              <User size={20} strokeWidth={1.6} className="lg:w-6 lg:h-6" />
-            </Link>
+            {user ? (
+              // ── Logged-in avatar ──────────────────────────────────────────
+              <div ref={avatarRef} className="relative">
+                <button
+                  aria-label="Account menu"
+                  onClick={() => setIsAvatarOpen((v) => !v)}
+                  className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 rounded-full bg-[#19191b] text-white flex items-center justify-center text-[10px] sm:text-[12px] lg:text-[13px] font-bold cursor-pointer hover:bg-[#302e3e] transition-colors duration-200 select-none"
+                >
+                  {avatarLetter}
+                </button>
+
+                <AnimatePresence>
+                  {isAvatarOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -8, scale: 0.96 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      exit={{ opacity: 0, y: -8, scale: 0.96 }}
+                      transition={{ duration: 0.18, ease: "easeOut" }}
+                      className="absolute right-0 top-10 z-50 min-w-[180px] rounded-xl border border-neutral-100 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-xl py-2 overflow-hidden"
+                    >
+                      {/* User info */}
+                      <div className="px-4 py-3 border-b border-neutral-100 dark:border-neutral-800">
+                        <p className="text-[11px] text-neutral-400 dark:text-neutral-500 uppercase tracking-wider mb-0.5">
+                          Signed in as
+                        </p>
+                        <p className="text-[13px] font-semibold text-black dark:text-white truncate">
+                          {user.name || user.email}
+                        </p>
+                        <p className="text-[11px] text-neutral-400 dark:text-neutral-500 truncate">
+                          {user.email}
+                        </p>
+                      </div>
+                      {/* Logout */}
+                      <button
+                        onClick={() => {
+                          logout();
+                          setIsAvatarOpen(false);
+                        }}
+                        className="flex items-center gap-2.5 w-full px-4 py-2.5 text-[13px] text-red-500 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 transition-colors cursor-pointer"
+                      >
+                        <LogOut size={14} />
+                        Log out
+                      </button>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            ) : (
+              // ── Guest user icon ───────────────────────────────────────────
+              <Link
+                href="/login"
+                aria-label="Account"
+                className={`transition-opacity hover:opacity-70 ${
+                  useLightTheme ? "text-black dark:text-white" : "text-white"
+                }`}
+              >
+                <User size={20} strokeWidth={1.6} className="lg:w-6 lg:h-6" />
+              </Link>
+            )}
 
             {/* Search Button - visible on all screens */}
             <button
@@ -199,7 +281,7 @@ const Header = () => {
                 const subMenu = megaMenuByNav[link.label];
                 const isExpanded = expandedMobileTab === link.label;
 
-                return ( 
+                return (
                   <div
                     key={link.label}
                     className="border-b border-neutral-100 dark:border-neutral-800 pb-3"
