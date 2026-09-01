@@ -197,10 +197,9 @@ export default function AdminLayout({
 
       {/* ── Desktop Sidebar (hidden on mobile, visible on md+) ── */}
       <aside
-        className={`hidden md:flex relative flex-col bg-white dark:bg-neutral-950 border-r border-neutral-200 dark:border-neutral-800 transition-all duration-300 shrink-0 ${
+        className={`hidden md:flex sticky top-0 h-screen self-start flex-col bg-white dark:bg-neutral-950 border-r border-neutral-200 dark:border-neutral-800 transition-all duration-300 shrink-0 z-30 ${
           collapsed ? "w-[60px]" : "w-[220px]"
         }`}
-        style={{ minHeight: "100vh" }}
       >
         {/* Logo */}
         <div
