@@ -1,91 +1,5 @@
 [
   {
-    "id": "prod-m-tee-01",
-    "name": "Heavyweight Oversized Logo Tee - Washed Grey",
-    "slug": "men-tshirts-m-tee-01",
-    "collectionSlug": "men-tshirts",
-    "category": "MEN",
-    "subCategory": "TOPS",
-    "price": 44.95,
-    "originalPrice": null,
-    "currency": "EUR",
-    "currencySymbol": "€",
-    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
-    "moreImages": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "stock": 22,
-    "inStock": true,
-    "color": "Washed Grey",
-    "rating": 4.4,
-    "reviewCount": 17,
-    "details": {
-      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
-      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
-      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
-      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
-      "features": [
-        "Heavyweight premium cotton construction",
-        "High-density silk-screened print",
-        "Ribbed collar / elastic cuffs",
-        "Pre-shrunk fabric to prevent shrinking"
-      ]
-    }
-  },
-  {
-    "id": "prod-m-tee-02",
-    "name": "Boxy Fit Distressed Graphic Tee - Off White",
-    "slug": "men-tshirts-m-tee-02",
-    "collectionSlug": "men-tshirts",
-    "category": "MEN",
-    "subCategory": "TOPS",
-    "price": 49.95,
-    "originalPrice": null,
-    "currency": "EUR",
-    "currencySymbol": "€",
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
-    "moreImages": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "stock": 29,
-    "inStock": true,
-    "color": "Off White",
-    "rating": 4.5,
-    "reviewCount": 22,
-    "details": {
-      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
-      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
-      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
-      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
-      "features": [
-        "Heavyweight premium cotton construction",
-        "High-density silk-screened print",
-        "Ribbed collar / elastic cuffs",
-        "Pre-shrunk fabric to prevent shrinking"
-      ]
-    }
-  },
-  {
     "id": "prod-m-tee-03",
     "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
     "slug": "men-tshirts-m-tee-03",
@@ -244,49 +158,6 @@
     "color": "Vintage Black",
     "rating": 4.9,
     "reviewCount": 42,
-    "details": {
-      "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
-      "fit": "Oversized Streetwear Cut - Order true to size for intended look",
-      "fabric": "100% Organic Heavyweight Cotton (240-380 GSM)",
-      "care": "Machine wash cold at 30°C. Inside out. Do not tumble dry.",
-      "features": [
-        "Heavyweight premium cotton construction",
-        "High-density silk-screened print",
-        "Ribbed collar / elastic cuffs",
-        "Pre-shrunk fabric to prevent shrinking"
-      ]
-    }
-  },
-  {
-    "id": "prod-m-tee-07",
-    "name": "Tactical Pocket Cargo Jogger - Washed Grey",
-    "slug": "men-tshirts-m-tee-07",
-    "collectionSlug": "men-tshirts",
-    "category": "MEN",
-    "subCategory": "TOPS",
-    "price": 54.95,
-    "originalPrice": null,
-    "currency": "EUR",
-    "currencySymbol": "€",
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=80",
-    "moreImages": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "stock": 29,
-    "inStock": true,
-    "color": "Washed Grey",
-    "rating": 4.3,
-    "reviewCount": 47,
     "details": {
       "description": "Premium streetwear staple from the Men's T-Shirts series. Designed with dropped shoulders, raw-edge accents, and signature PEGADOR® high-density branding.",
       "fit": "Oversized Streetwear Cut - Order true to size for intended look",
@@ -3866,6 +3737,47 @@
         "High-density silk-screened print",
         "Ribbed collar / elastic cuffs",
         "Pre-shrunk fabric to prevent shrinking"
+      ]
+    }
+  },
+  {
+    "id": "prod-1788260757848",
+    "name": "Clothing pant",
+    "slug": "clothing-pant",
+    "collectionSlug": "men-tshirts",
+    "category": "MEN",
+    "subCategory": "TOPS",
+    "price": 2000,
+    "originalPrice": null,
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "image": "https://images.unsplash.com/photo-1626808642875-0aa545482dfb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "moreImages": [
+      "https://images.unsplash.com/photo-1626808642875-0aa545482dfb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1626808642875-0aa545482dfb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1626808642875-0aa545482dfb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1626808642875-0aa545482dfb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 9,
+    "inStock": true,
+    "color": "white ",
+    "rating": 0,
+    "reviewCount": 0,
+    "details": {
+      "description": "Good Product ",
+      "fit": "Oversized",
+      "fabric": "Organic",
+      "care": "Machine",
+      "features": [
+        "good"
       ]
     }
   }

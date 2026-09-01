@@ -10,6 +10,7 @@ import {
   Sun,
   Moon,
   LogOut,
+  LayoutDashboard,
 } from "lucide-react";
 import Link from "next/link";
 import { LayoutGroup, motion, AnimatePresence } from "motion/react";
@@ -28,7 +29,7 @@ const Header = () => {
   const pathname = usePathname();
   const isHomePage = pathname === "/";
   const { theme, toggleTheme } = useTheme();
-  const { user, logout } = useAuth();
+  const { user, isAdmin, logout } = useAuth();
 
   const isScrolled = useScrolled(12);
   const { isCartOpen, setIsCartOpen } = useCartDrawer();
@@ -160,7 +161,7 @@ const Header = () => {
                 useLightTheme ? "text-black dark:text-white" : "text-white"
               }`}
             >
-              <motion.div
+              <motion.div 
                 initial={false}
                 animate={{ rotate: theme === "dark" ? 180 : 0 }}
                 transition={{ duration: 0.3 }}
@@ -205,6 +206,19 @@ const Header = () => {
                           {user.email}
                         </p>
                       </div>
+
+                      {/* Admin Link if authorized */}
+                      {isAdmin && (
+                        <Link
+                          href="/admin/Dashboard"
+                          onClick={() => setIsAvatarOpen(false)}
+                          className="flex items-center gap-2.5 w-full px-4 py-2.5 text-[13px] font-medium text-black dark:text-white hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors"
+                        >
+                          <LayoutDashboard size={14} />
+                          Admin Dashboard
+                        </Link>
+                      )}
+
                       {/* Logout */}
                       <button
                         onClick={() => {
