@@ -50,7 +50,7 @@ const inputClass =
   "w-full border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 px-3.5 sm:px-4 py-2.5 sm:py-3 text-[13px] tracking-wide text-black dark:text-white placeholder:text-neutral-400 dark:placeholder:text-neutral-600 focus:border-black dark:focus:border-white focus:outline-none transition-colors rounded-lg";
 
 const labelClass =
-  "block text-[10px] font-bold tracking-[0.18em] uppercase text-neutral-400 dark:text-neutral-500 mb-1.5";
+  "block text-[10px] font-bold tracking-[0.18em] uppercase text-neutral-700 dark:text-neutral-500 mb-1.5";
 
 function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
@@ -132,7 +132,7 @@ export const ProductForm: React.FC = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-      if (!res.ok) throw new Error();
+      if (!res.ok) throw new Error("Failed to save product. Please try again.");
       setSuccess(true);
       setTimeout(() => router.push("/admin/Dashboard"), 2000);
     } catch {

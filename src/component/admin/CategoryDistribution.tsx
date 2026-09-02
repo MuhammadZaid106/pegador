@@ -7,7 +7,9 @@ export interface CategoryDistributionProps {
   products: Product[];
 }
 
-export const CategoryDistribution: React.FC<CategoryDistributionProps> = ({ products }) => {
+export const CategoryDistribution: React.FC<CategoryDistributionProps> = ({
+  products,
+}) => {
   const counts = useMemo(() => {
     const map: Record<string, number> = {};
     products.forEach((p) => {
@@ -84,7 +86,10 @@ export const CategoryDistribution: React.FC<CategoryDistributionProps> = ({ prod
         <div className="flex items-center gap-4 sm:gap-6">
           {/* Donut Graphic */}
           <div className="relative shrink-0 w-24 h-24 sm:w-28 sm:h-28">
-            <svg viewBox="0 0 120 120" className="w-full h-full transform -rotate-90">
+            <svg
+              viewBox="0 0 120 120"
+              className="w-full h-full transform -rotate-90"
+            >
               {/* Background circle track */}
               <circle
                 cx={cx}
@@ -142,7 +147,10 @@ export const CategoryDistribution: React.FC<CategoryDistributionProps> = ({ prod
           {/* Legend list */}
           <div className="flex flex-col gap-2.5 flex-1 min-w-0">
             {data.map((d) => (
-              <div key={d.label} className="flex items-center justify-between gap-2 min-w-0">
+              <div
+                key={d.label}
+                className="flex items-center justify-between gap-2 min-w-0"
+              >
                 <div className="flex items-center gap-2 min-w-0">
                   <span
                     className="w-2 h-2 shrink-0 dark:hidden"
@@ -168,12 +176,20 @@ export const CategoryDistribution: React.FC<CategoryDistributionProps> = ({ prod
       {/* Summary Footer */}
       <div className="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-900 flex flex-col gap-2">
         <div className="flex justify-between items-center text-[10px] font-bold tracking-[0.18em] uppercase">
-          <span className="text-neutral-400 dark:text-neutral-500">Collections</span>
-          <span className="text-black dark:text-white tabular-nums">{collectionsDataRaw.length}</span>
+          <span className="text-neutral-400 dark:text-neutral-500">
+            Collections
+          </span>
+          <span className="text-black dark:text-white tabular-nums">
+            {collectionsDataRaw.length}
+          </span>
         </div>
         <div className="flex justify-between items-center text-[10px] font-bold tracking-[0.18em] uppercase">
-          <span className="text-neutral-400 dark:text-neutral-500">Categories</span>
-          <span className="text-black dark:text-white tabular-nums">{cats.length || 3}</span>
+          <span className="text-neutral-400 dark:text-neutral-500">
+            Categories
+          </span>
+          <span className="text-black dark:text-white tabular-nums">
+            {cats.length || 3}
+          </span>
         </div>
       </div>
     </div>

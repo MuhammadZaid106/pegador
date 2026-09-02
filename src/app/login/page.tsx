@@ -29,7 +29,7 @@ function LoginFormContent() {
     setError(null);
 
     const result = login(targetEmail);
-
+  
     if (result === "ok") {
       if (isAdminEmail(targetEmail)) {
         router.push(redirectParam.startsWith("/admin") ? redirectParam : "/admin/Dashboard");
@@ -81,8 +81,6 @@ function LoginFormContent() {
           create an account
         </Link>
       </p>
-
-      {/* Admin Quick Fill Helper */}
 
 
       <Link

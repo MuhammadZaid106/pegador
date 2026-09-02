@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/component/ThemeProvider";
 import { AuthProvider } from "@/component/AuthProvider";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Official Website — PEGADOR®",
-  description: "PEGADOR® is a brand that specializes in high-quality products and services. Explore our offerings and learn more about our commitment to excellence.",
+  description:
+    "PEGADOR® is a brand that specializes in high-quality products and services. Explore our offerings and learn more about our commitment to excellence.",
 };
 
 import ReduxProvider from "@/component/redux/ReduxProvider";
@@ -49,6 +51,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <ReduxProvider>
           <ThemeProvider>
             <AuthProvider>{children}</AuthProvider>
+            <Script
+              defer
+              src="https://cloud.umami.is/script.js"
+              data-website-id="7a8ba992-0ddc-48d7-bd18-c4e809a9ad0e"
+              strategy="afterInteractive"
+            />
           </ThemeProvider>
         </ReduxProvider>
       </body>
