@@ -1,0 +1,93 @@
+{
+  "orders": [
+    {
+      "id": "ord-1788344954387",
+      "orderNumber": "PEG-44954349",
+      "customer": {
+        "email": "zaidnaeem106@gmail.com",
+        "phone": "1234567890-",
+        "firstName": "Zaid",
+        "lastName": "Naeem",
+        "address": "Chak no 197 RB baghewala , Faisalabad",
+        "apt": "",
+        "city": "FAISALABAD",
+        "postalCode": "3456789",
+        "country": "Pakistan",
+        "cardName": "WERTYUIOFK",
+        "cardNumber": "2345 6789 9876 5434",
+        "expiry": "12/29",
+        "cvv": "3456"
+      },
+      "items": [
+        {
+          "productId": "prod-m-pant-03",
+          "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+          "price": 74.95,
+          "quantity": 1,
+          "size": "XXL",
+          "color": "Espresso Brown",
+          "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "productId": "prod-m-pant-01",
+          "name": "Heavyweight Oversized Logo Tee - Washed Grey",
+          "price": 64.95,
+          "quantity": 1,
+          "size": "M",
+          "color": "Washed Grey",
+          "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      "itemCount": 2,
+      "subtotal": 139.9,
+      "shipping": 9.95,
+      "discount": 0,
+      "total": 149.85,
+      "currency": "€",
+      "paymentMethod": "Credit Card",
+      "status": "paid",
+      "timestamp": 1788344954387,
+      "date": "2026-09-02"
+    },
+    {
+      "id": "ord-1788344893624",
+      "orderNumber": "PEG-44893574",
+      "customer": {
+        "email": "zaidnaeem106@gmail.com",
+        "phone": "34567678456789",
+        "firstName": "Zaid",
+        "lastName": "Naeem",
+        "address": "Chak no 197 RB baghewala , Faisalabad",
+        "apt": "",
+        "city": "FAISALABAD",
+        "postalCode": "3456789",
+        "country": "Pakistan",
+        "cardName": "UYTRERTYU",
+        "cardNumber": "8765 4567 8987 6543",
+        "expiry": "12/29",
+        "cvv": "4567"
+      },
+      "items": [
+        {
+          "productId": "prod-m-pant-03",
+          "name": "Minimalist Embroidered Essential Tee - Espresso Brown",
+          "price": 74.95,
+          "quantity": 1,
+          "size": "M",
+          "color": "Espresso Brown",
+          "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      "itemCount": 1,
+      "subtotal": 74.95,
+      "shipping": 9.95,
+      "discount": 0,
+      "total": 84.9,
+      "currency": "€",
+      "paymentMethod": "Credit Card",
+      "status": "paid",
+      "timestamp": 1788344893624,
+      "date": "2026-09-02"
+    }
+  ]
+}

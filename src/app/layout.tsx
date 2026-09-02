@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/component/ThemeProvider";
 import { AuthProvider } from "@/component/AuthProvider";
-import Script from "next/script";
+import AnalyticsTracker from "@/component/AnalyticsTracker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,13 +50,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col bg-background text-foreground transition-colors duration-300">
         <ReduxProvider>
           <ThemeProvider>
-            <AuthProvider>{children}</AuthProvider>
-            <Script
-              defer
-              src="https://cloud.umami.is/script.js"
-              data-website-id="7a8ba992-0ddc-48d7-bd18-c4e809a9ad0e"
-              strategy="afterInteractive"
-            />
+            <AuthProvider>
+              <AnalyticsTracker />
+              {children}
+            </AuthProvider>
           </ThemeProvider>
         </ReduxProvider>
       </body>

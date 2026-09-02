@@ -55,14 +55,46 @@ export default function CartPage() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleConfirmOrder = () => {
+  const handleConfirmOrder = async (customerData?: Record<string, string>) => {
     const orderNumber = `PEG-${Date.now().toString().slice(-8).toUpperCase()}`;
-    setOrderSnapshot({
+    const snapshot = {
       orderNumber,
       total: total.toFixed(2),
       itemCount: cartItems.reduce((s, i) => s + i.quantity, 0),
       currency: currencySymbol,
-    });
+    };
+    setOrderSnapshot(snapshot);
+
+    // Save order in JSON store
+    try {
+      await fetch("/api/orders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          orderNumber,
+          customer: customerData || {},
+          items: cartItems.map((item) => ({
+            productId: item.product.id,
+            name: item.product.name,
+            price: item.product.price,
+            quantity: item.quantity,
+            size: item.size,
+            color: item.product.color,
+            image: item.product.image,
+          })),
+          itemCount: snapshot.itemCount,
+          subtotal,
+          shipping,
+          discount,
+          total,
+          currency: currencySymbol,
+          paymentMethod: "Credit Card",
+        }),
+      });
+    } catch (err) {
+      console.error("Failed to record order:", err);
+    }
+
     dispatch(clearCart());
     setView("success");
     window.scrollTo({ top: 0, behavior: "smooth" });

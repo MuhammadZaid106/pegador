@@ -5,10 +5,12 @@ import collectionsDataRaw from "@/data/collectionsData.json";
 
 export interface CategoryDistributionProps {
   products: Product[];
+  loading?: boolean;
 }
 
 export const CategoryDistribution: React.FC<CategoryDistributionProps> = ({
   products,
+  loading = false,
 }) => {
   const counts = useMemo(() => {
     const map: Record<string, number> = {};
@@ -73,8 +75,19 @@ export const CategoryDistribution: React.FC<CategoryDistributionProps> = ({
     };
   });
 
+  if (loading) {
+    return (
+      <div className="bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 p-5 md:p-6 flex flex-col justify-center items-center min-h-[260px] h-full rounded-2xl">
+        <div className="w-6 h-6 border-2 border-black dark:border-white border-t-transparent animate-spin rounded-full mb-2" />
+        <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-neutral-400">
+          Loading Categories…
+        </span>
+      </div>
+    );
+  }
+
   return (
-    <div className="bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 p-5 md:p-6 flex flex-col justify-between h-full rounded-2xl hover:shadow-xl  cursor-pointer">
+    <div className="bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 p-5 md:p-6 flex flex-col justify-between h-full rounded-2xl hover:shadow-xl cursor-pointer">
       <div>
         <p className="text-[10px] font-bold tracking-[0.2em] uppercase text-neutral-400 dark:text-neutral-500 mb-1">
           Categories

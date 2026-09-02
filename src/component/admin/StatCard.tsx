@@ -8,6 +8,7 @@ export interface StatCardProps {
   percentChange: string;
   subText: string;
   trend: "up" | "down";
+  loading?: boolean;
 }
 
 export const StatCard: React.FC<StatCardProps> = ({
@@ -16,8 +17,17 @@ export const StatCard: React.FC<StatCardProps> = ({
   percentChange,
   subText,
   trend,
+  loading = false,
 }) => {
   const isUp = trend === "up";
+
+  if (loading) {
+    return (
+      <div className="bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 p-4 sm:p-5 flex flex-col justify-center items-center min-h-[148px] rounded-2xl">
+        <div className="w-5 h-5 border-2 border-black dark:border-white border-t-transparent animate-spin rounded-full" />
+      </div>
+    );
+  }
 
   return (
     <div className="bg-white dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 p-4 sm:p-5 flex flex-col justify-between hover:border-neutral-300 hover:shadow-md hover:shadow-neutral-200 dark:hover:border-neutral-700 dark:hover:shadow-none transition-all duration-200 group rounded-2xl cursor-pointer">

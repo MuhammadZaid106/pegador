@@ -11,6 +11,29 @@ import {
   AdminHeader,
 } from "@/component/admin";
 
+interface AnalyticsStats {
+  visitors: number;
+  visits: number;
+  pageviews: number;
+  percentChange: string;
+  subText: string;
+  trend: "up" | "down";
+  isLive: boolean;
+}
+
+interface OrdersStats {
+  totalOrdersCount: number;
+  totalSalesAmount: number;
+  todayOrdersCount: number;
+  todaySalesAmount: number;
+  percentChangeOrders: string;
+  percentChangeSales: string;
+  ordersSubText: string;
+  salesSubText: string;
+  trendOrders: "up" | "down";
+  trendSales: "up" | "down";
+}
+
 export default function DashboardPage() {
   const [products, setProducts]                 = useState<Product[]>([]);
   const [search, setSearch]                     = useState("");
@@ -23,16 +46,70 @@ export default function DashboardPage() {
   const [deleting, setDeleting]                 = useState(false);
   const [notification, setNotification]         = useState<string | null>(null);
 
-  // Fetch live products
-  const fetchProducts = useCallback(async (showRefresh = false) => {
+  // Live visitor analytics state
+  const [analytics, setAnalytics] = useState<AnalyticsStats>({
+    visitors: 1,
+    visits: 1,
+    pageviews: 1,
+    percentChange: "+100%",
+    subText: "+1 today",
+    trend: "up",
+    isLive: false,
+  });
+
+  // Real orders array state
+  const [orders, setOrders] = useState<any[]>([]);
+
+  // Live orders & revenue statistics state
+  const [ordersStats, setOrdersStats] = useState<OrdersStats>({
+    totalOrdersCount: 0,
+    totalSalesAmount: 0,
+    todayOrdersCount: 0,
+    todaySalesAmount: 0,
+    percentChangeOrders: "+0%",
+    percentChangeSales: "+0%",
+    ordersSubText: "+0 today",
+    salesSubText: "€0.00 today",
+    trendOrders: "up",
+    trendSales: "up",
+  });
+
+  // Fetch live products, orders, and analytics
+  const fetchDashboardData = useCallback(async (showRefresh = false) => {
     if (showRefresh) setRefreshing(true);
     else setLoading(true);
+
     try {
-      const res = await fetch("/api/products", { cache: "no-store" });
-      const data = await res.json();
-      setProducts(Array.isArray(data) ? data : []);
-    } catch {
-      // Fallback
+      // 1. Fetch live products
+      const productsPromise = fetch("/api/products", { cache: "no-store" })
+        .then((res) => res.json())
+        .then((data) => setProducts(Array.isArray(data) ? data : []))
+        .catch(() => {});
+
+      // 2. Fetch live website analytics
+      const analyticsPromise = fetch("/api/analytics", { cache: "no-store" })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data && typeof data.visitors === "number") {
+            setAnalytics(data);
+          }
+        })
+        .catch(() => {});
+
+      // 3. Fetch live orders and sales stats
+      const ordersPromise = fetch("/api/orders", { cache: "no-store" })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data) {
+            setOrders(Array.isArray(data.orders) ? data.orders : []);
+            if (data.stats) {
+              setOrdersStats(data.stats);
+            }
+          }
+        })
+        .catch(() => {});
+
+      await Promise.allSettled([productsPromise, analyticsPromise, ordersPromise]);
     } finally {
       setLoading(false);
       setRefreshing(false);
@@ -40,8 +117,8 @@ export default function DashboardPage() {
   }, []);
 
   useEffect(() => {
-    fetchProducts();
-  }, [fetchProducts]);
+    fetchDashboardData();
+  }, [fetchDashboardData]);
 
   // Toast notification timer
   useEffect(() => {
@@ -51,19 +128,9 @@ export default function DashboardPage() {
     }
   }, [notification]);
 
-  // Statistics calculation
-  const stats = useMemo(() => {
-    const totalOrdersCount = 12832;
-    const totalSalesAmount = 12832.8;
-    const visitsCount = 1062;
-    const inStockCount = products.filter((p) => p.inStock).length;
-
-    return {
-      totalOrdersCount,
-      totalSalesAmount,
-      visitsCount,
-      inStockCount,
-    };
+  // Statistics calculation for in-stock
+  const inStockCount = useMemo(() => {
+    return products.filter((p) => p.inStock).length;
   }, [products]);
 
   // Filter and sort products
@@ -176,7 +243,7 @@ export default function DashboardPage() {
         search={search}
         onSearchChange={setSearch}
         onExport={handleExport}
-        onRefresh={() => fetchProducts(true)}
+        onRefresh={() => fetchDashboardData(true)}
         refreshing={refreshing}
       />
 
@@ -184,41 +251,45 @@ export default function DashboardPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
         <StatCard
           title="Total orders"
-          value={stats.totalOrdersCount.toLocaleString()}
-          percentChange="+20.1%"
-          subText="+2,123 today"
-          trend="up"
+          value={ordersStats.totalOrdersCount.toLocaleString()}
+          percentChange={ordersStats.percentChangeOrders}
+          subText={ordersStats.ordersSubText}
+          trend={ordersStats.trendOrders}
+          loading={loading}
         />
         <StatCard
           title="Total Sales"
-          value={`€${stats.totalSalesAmount.toLocaleString("en-US", { minimumFractionDigits: 2 })}`}
-          percentChange="+10.6%"
-          subText="€1,895 today"
-          trend="up"
+          value={`€${ordersStats.totalSalesAmount.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
+          percentChange={ordersStats.percentChangeSales}
+          subText={ordersStats.salesSubText}
+          trend={ordersStats.trendSales}
+          loading={loading}
         />
         <StatCard
           title="Visits"
-          value={stats.visitsCount.toLocaleString()}
-          percentChange="-10%"
-          subText="-426 today"
-          trend="down"
+          value={analytics.visits.toLocaleString()}
+          percentChange={analytics.percentChange}
+          subText={analytics.subText}
+          trend={analytics.trend}
+          loading={loading}
         />
         <StatCard
           title="In Stock Items"
-          value={loading ? "—" : `${stats.inStockCount} / ${products.length}`}
+          value={`${inStockCount} / ${products.length}`}
           percentChange="+12%"
           subText="+42 today"
           trend="up"
+          loading={loading}
         />
       </div>
 
       {/* ── Middle Row: Revenue Chart + Category Distribution ── */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
         <div className="lg:col-span-2">
-          <RevenueChart />
+          <RevenueChart orders={orders} loading={loading} />
         </div>
         <div>
-          <CategoryDistribution products={products} />
+          <CategoryDistribution products={products} loading={loading} />
         </div>
       </div>
 

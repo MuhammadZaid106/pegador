@@ -22,7 +22,7 @@ interface CheckoutFormProps {
   currency: string;
   itemCount: number;
   onBack: () => void;
-  onConfirm: () => void;
+  onConfirm: (customerData?: Record<string, string>) => void;
 }
 
 type Step = "contact" | "shipping" | "payment";
@@ -677,7 +677,7 @@ export default function CheckoutForm({
         itemCount={itemCount}
         onConfirm={() => {
           setShowConfirmModal(false);
-          onConfirm();
+          onConfirm(formik.values);
         }}
         onCancel={() => setShowConfirmModal(false)}
       />
